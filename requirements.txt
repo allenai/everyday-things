@@ -1,0 +1,7 @@
+openai
+tqdm
+tenacity
+matplotlib
+numpy
+beaker-py
+notebook
