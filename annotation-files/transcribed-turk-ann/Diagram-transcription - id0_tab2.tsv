@@ -1,0 +1,534 @@
+worker_100	air conditioner	---	hot coils	connects	expansion valve
+		---	hot coils	connects	compressor
+		---	expansion valve	connects	cold coils
+		---	compressor	connects	cold coils
+worker_101	air conditioner	---	hot coils	connects	compressor
+		---	hot coils	requires	compressor
+		---	hot coils	connects	expansion valve
+		---	compressor	connects	cold coils
+		---	cold coils	requires	compressor
+		---	cold coils	connects	expansion valve
+worker_102	air conditioner	---	compressor	requires	condenser
+		---	compressor	connects	condenser
+		---	compressor	requires	evaporator
+		---	compressor	connects	evaporator
+		---	condenser	requires	expansion valve
+		---	condenser	connects	expansion valve
+		---	evaporator	requires	expansion valve
+		---	evaporator	connects	expansion valve
+worker_101	bicycle	---	brake lever	connects	left handlebar
+		---	left handlebar	above	frame
+		---	left handlebar	connects	frame
+		---	seat	above	frame
+		---	seat	connects	frame
+		---	brake	connects	frame
+		---	chain	connects	frame
+		---	gear	connects	frame
+		---	rear wheel	connects	frame
+		---	front wheel	connects	frame
+		---	right handlebar	connects	frame
+		---	right handlebar	above	frame
+		---	front wheel	behind	rear wheel
+		---	chain	surrounds	gear
+		---	chain	connects	gear
+		---	gear	connects	pedals
+		---	brake	next to	rear wheel
+worker_102	bicycle	---	handlebars	connects	brake lever
+		---	brake lever	requires	brake
+		---	brake	connects	frame
+		---	handlebars	connects	frame
+		---	wheels	connects	frame
+		---	seat	connects	frame
+		---	frame	above	pedals
+		---	pedals	requires	gear
+		---	gear	connects	wheels
+		---	pedals	requires	chain
+		---	wheels	connects	chain
+worker_103	bicycle	---	seat	above	frame
+		---	frame	behind	handlebars
+		---	frame	above	pedals
+		---	pedals	connects	gear
+		---	gear	connects	chain
+		---	brake lever	part of	handlebars
+		---	brake lever	connects	brake
+		---	brake	surrounds	wheels
+worker_101	binoculars	---	diopter	connects	adjustable eye cup
+		---	diopter	next to	adjustable eye cup
+		---	diopter	next to	focus
+		---	diopter	connects	frame
+		---	focus	connects	frame
+		---	frame	connects	objective lens
+		---	frame	next to	ocular lens
+		---	frame	connects	ocular lens
+worker_102	binoculars	---	diopter	behind	objective lens
+		---	diopter	connects	adjustable eye cup
+		---	focus	behind	adjustable eye cup
+		---	ocular lens	behind	adjustable eye cup
+		---	adjustable eye cup	behind	diopter
+		---	adjustable eye cup	connects	focus
+		---	adjustable eye cup	connects	ocular lens
+worker_100	binoculars	---	focus	next to	ocular lens
+		---	focus	next to	adjustable eye cup
+		---	focus	next to	diopter
+		---	ocular lens	connects	adjustable eye cup
+		---	diopter	connects	adjustable eye cup
+		---	diopter	behind	objective lens
+worker_101	blender	---	refilling cap	connects	lid
+		---	refilling cap	above	lid
+		---	lid	above	pitcher
+		---	lid	connects	pitcher
+		---	handle	next to	pitcher
+		---	handle	connects	pitcher
+		---	pitcher	above	base
+		---	pitcher	connects	base
+		---	power	part of	control board
+		---	base	connects	control board
+		---	control board	above	base
+worker_100	blender	---	refilling cap	connects	lid
+		---	lid	connects	pitcher
+		---	handle	part of	pitcher
+		---	pitcher	connects	base
+		---	control board	part of	base
+		---	control board	requires	power
+		---	power	part of	base
+worker_104	blender	---	refilling cap	above	lid
+		---	lid	above	pitcher
+		---	lid	above	handle
+		---	pitcher	next to	handle
+		---	pitcher	above	power
+		---	power	above	base
+		---	power	next to	control board
+		---	control board	above	base
+worker_100	boat	---	stern	behind	transom
+		---	transom	behind	port
+		---	transom	behind	starboard
+		---	port	next to	starboard
+		---	port	above	hull
+		---	starboard	above	hull
+		---	port	behind	gunwale
+		---	starboard	behind	gunwale
+		---	gunwale	above	hull
+		---	gunwale	behind	bow
+worker_102	boat	---	stern	behind	transom
+		---	transom	next to	port
+		---	transom	above	hull
+		---	transom	next to	starboard
+		---	port	connects	hull
+		---	hull	behind	bow
+		---	hull	connects	starboard
+		---	gunwale	above	bow
+		---	gunwale	above	starboard
+worker_103	boat	---	transom	part of	stern
+		---	stern	connects	hull
+		---	port	connects	hull
+		---	hull	connects	starboard
+		---	hull	connects	gunwale
+		---	hull	connects	bow
+worker_101	digital camera	---	power switch	next to	mode dial
+		---	mode dial	next to	main dial
+		---	main dial	next to	shutter button
+		---	power switch	next to	shutter button
+		---	mode dial	next to	flash
+		---	flash	requires	flash button
+		---	flash	above	lens
+		---	flash button	above	lens
+		---	lens	next to	lens release
+		---	lens	next to	focus switch mode
+		---	lens	next to	shutter button
+worker_100	digital camera	---	mode dial	next to	flash
+		---	mode dial	next to	power switch
+		---	flash	above	flash button
+		---	flash button	above	lens release
+		---	lens release	next to	lens
+		---	power switch	above	shutter button
+		---	settings	behind	lens
+worker_105	digital camera	---	power button	next to	shutter button
+		---	power button	next to	mode dial
+		---	mode dial	next to	flash
+		---	flash	above	lens release
+		---	lens release	behind	lens
+		---	lens release	behind	shutter
+		---	display	behind	lens release
+		---	display	next to	settings
+worker_101	elevator	---	ceiling and lighting	above	floor indicator
+		---	ceiling and lighting	above	door cladding
+		---	ceiling and lighting	above	panels
+		---	panels	above	handrails
+		---	floor indicator	above	car operating panel
+		---	car operating panel	above	toe kick
+		---	door cladding	above	flooring
+		---	handrails	above	flooring
+		---	door cladding	next to	toe kick
+worker_106	elevator	---	ceiling and lighting	above	floor indicator
+		---	ceiling and lighting	above	top band
+		---	top band	above	panels
+		---	panels	above	handrails
+		---	handrails	above	toe kick
+		---	toe kick	above	flooring
+		---	floor indicator	above	car operating panel
+		---	door cladding	requires	car operating panel
+worker_102	elevator	---	ceiling and lighting	connects	panels
+		---	ceiling and lighting	connects	door cladding
+		---	ceiling and lighting	above	flooring
+		---	panels	connects	flooring
+		---	handrails	next to	door cladding
+		---	door cladding	next to	car operating panel
+		---	floor indicator	above	car operating panel
+worker_101	flashlight	---	switch	connects	case
+		---	case	surrounds	protective glass
+		---	protective glass	connects	reflector
+		---	reflector	surrounds	bulb
+		---	reflector	behind	protective glass
+		---	case	surrounds	reflector
+		---	case	surrounds	bulb
+		---	case	surrounds	batteries
+		---	bulb	requires	batteries
+		---	batteries	behind	bulb
+		---	metal spring	behind	batteries
+		---	metal spring	connects	batteries
+		---	metal spring	surrounds	case
+worker_102	flashlight	---	metal spring	behind	batteries
+		---	switch	above	batteries
+		---	batteries	behind	bulb
+		---	bulb	requires	batteries
+		---	bulb	next to	reflector
+		---	protective glass	surrounds	reflector
+		---	protective glass	surrounds	bulb
+worker_107	flashlight	---	metal spring	inside	case
+		---	metal spring	behind	batteries
+		---	batteries	inside	case
+		---	switch	above	case
+		---	bulb	requires	batteries
+		---	bulb	inside	protective glass
+		---	reflector	inside	protective glass
+		---	protective glass	inside	batteries
+worker_101	glider	---	right aileron	part of	right wing
+		---	right wing	connects	body
+		---	cockpit	inside	body
+		---	body	connects	left wing
+		---	left aileron	part of	left wing
+		---	body	connects	vertical stabilizer
+		---	rudder	behind	vertical stabilizer
+		---	horizontal stabilizer	above	vertical stabilizer
+		---	elevator	above	vertical stabilizer
+		---	horizontal stabilizer	above	rudder
+		---	elevator	behind	horizontal stabilizer
+		---	elevator	above	rudder
+worker_100	glider	---	cockpit	connects	fuselage
+		---	fuselage	behind	cockpit
+		---	fuselage	connects	wing
+		---	fuselage	connects	vertical stabilizer
+		---	vertical stabilizer	behind	wind
+		---	vertical stabilizer	next to	rudder
+		---	rudder	connects	elevator
+		---	rudder	behind	vertical stabilizer
+		---	aileron	part of	wing
+		---	vertical stabilizer	connects	horizontal stabilizer
+		---	horizontal stabilizer	next to	elevator
+		---	elevator	behind	horizontal stabilizer
+worker_102	glider	---	aileron	part of	wing
+		---	aileron	connects	wing
+		---	wing	connects	fuselage
+		---	cockpit	connects	fuselage
+		---	fuselage	behind	cockpit
+		---	vertical stabilizer	behind	fuselage
+		---	fuselage	connects	vertical stabilizer
+		---	vertical stabilizer	next to	rudder
+		---	horizontal stabilizer	above	vertical stabilizer
+		---	horizontal stabilizer	next to	elevator
+		---	elevator	above	vertical stabilizer
+worker_101	guitar	---	neck	part of	fingerboard
+		---	frets	part of	fingerboard
+		---	fingerboard	connects	nut
+		---	fingerboard	next to	nut
+		---	fingerboard	connects	body
+		---	strings	above	fingerboard
+		---	headstock	connects	nut
+		---	headstock	next to	nut
+		---	headstock	connects	turners
+		---	headstock	next to	turners
+		---	turners	connects	strings
+		---	strings	above	body
+		---	body	connects	pick guard
+		---	pick guard	above	body
+		---	strings	connects	bridge
+		---	bridge	above	body
+		---	bridge	connects	body
+worker_104	guitar	---	turners	above	neck
+		---	neck	above	body
+		---	neck	behind	strings
+		---	strings	next to	pick guard
+		---	pick guard	above	bridge
+		---	body	behind	strings
+worker_102	guitar	---	headstock	connects	neck
+		---	turners	part of	headstock
+		---	fingerboard	part of	neck
+		---	frets	part of	neck
+		---	neck	connects	body
+		---	neck	above	body
+		---	strings	part of	body
+		---	strrings	part of	neck
+		---	bridge	part of	body
+		---	pick guard	part of	body
+worker_100	house	---	garage	connects	house
+		---	window	part of	house
+		---	door	part of	house
+		---	roof	above	house
+		---	house	connects	chimney
+		---	roof	connects	chimney
+		---	driveway	part of	yard
+		---	letterboy	part of	yard
+		---	path	part of	yard
+		---	yard	surrounds	house
+worker_101	house	---	driveway	connects	garage
+		---	garage	behind	driveway
+		---	garage	next to	walls
+		---	garage	connects	walls
+		---	door	connects	walls
+		---	walls	connects	balcony
+		---	walls	next to	balcony
+		---	walls	surrounds	window
+		---	walls	connects	yard
+		---	walls	behind	yard
+		---	yard	next to	path
+		---	yard	connects	path
+		---	yard	surrounds	letterbox
+		---	path	next to	letterbox
+		---	door	behind	yard
+		---	chimney	above	roof
+		---	chimney	connects	roof
+		---	roof	above	walls
+		---	roof	connects	walls
+worker_102	house	---	chimney	part of	roof
+		---	roof	above	window
+		---	window	next to	balcony
+		---	roof	above	door
+		---	door	connects	path
+		---	path	next to	driveway
+		---	driveway	connects	garage
+		---	path	next to	yard
+		---	letterbox	next to	yard
+worker_103	laptop	---	camera	above	screen
+		---	screen	above	keyboard
+		---	keyboard	next to	left side ports
+		---	keyboard	next to	right side ports
+		---	keyboard	above	touchpad
+worker_101	laptop	---	camera	above	screen
+		---	screen	above	keyboard
+		---	keyboard	behind	touchpad
+		---	ports	next to	keyboard
+worker_102	laptop	---	left side ports	next to	keyboard
+		---	right side ports	next to	keyboard
+		---	touchpad	next to	keyboard
+		---	camera	above	screen
+		---	screen	above	keyboard
+worker_101	pencil sharpener	---	keyring loop	part of	body
+		---	body	connects	blade
+		---	body	surrounds	blade
+		---	tapered hole	part of	body
+		---	screw	above	blade
+		---	screw	connects	blade
+worker_100	pencil sharpener	---	tapered hole	next to	blade
+		---	tapered hole	inside	body
+		---	blade	connects	screw
+		---	blade	inside	body
+		---	body	connects	screw
+		---	keyring loop	part of	body
+worker_102	pencil sharpener	---	tapered hole	part of	body
+		---	screw	part of	blade
+		---	blade	part of	body
+worker_101	pillow	---	pillow cover	surrounds	outer shell
+		---	outer shell	surrounds	filling
+worker_102	pillow	---	pillow cover	surrounds	outer shell
+		---	outer shell	surrounds	filling
+worker_107	pillow	---	pillow cover	surrounds	outer shell
+		---	filling	inside	outer shell
+worker_101	stroller	---	 arm rest	connects	armrest adjust button
+		---	sleeping basket	behind	armrest
+		---	handlebar	above	sleeping basket
+		---	armrest	connects	frame
+		---	frame	connects	storage basket
+		---	handlebar	above	canopy
+		---	canopy	connects	frame
+		---	handlebar	connects	frame
+		---	braking foot rest	connects	wheels
+		---	wheels	connects	frame
+		---	frame	above	wheels
+		---	folding button	connects	frame
+		---	foot rest	connects	frame
+		---	storage basket	connects	frame
+		---	storage basket	above	wheels
+		---	sleeping basket	connects	frame
+		---	sleeping basket	above	storage basket
+worker_102	stroller	---	brakes	next to	wheels
+		---	foot rest	above	wheels
+		---	sleeping basket	above	foot rest
+		---	sleeping basket	above	storage basket
+		---	canopy	above	sleeping basket
+		---	canopy	next to	folding button
+		---	handlebar	above	folding button
+		---	handlebar	behind	canopy
+worker_100	stroller	---	folding button	part of	handlebar
+		---	handlebar	above	sleeping basket
+		---	handlebar	connects	armrest
+		---	handlebar	connects	canopy
+		---	armrest	above	sleeping basket
+		---	canopy	above	sleeping basket
+		---	sleeping basket	above	foot rest
+		---	sleeping basket	above	storage basket
+		---	storage basket	above	wheels
+		---	foot rest	above	wheels
+		---	wheels	connects	brakes
+worker_106	table fan	---	guard	connects	chip
+		---	blade	inside	guard
+		---	blade	part of	blade shank
+		---	stator	above	blade shank
+		---	stator	above	rotor
+		---	rotor	above	stand
+		---	capacitor	connects	stand
+		---	speed controller	connects	stand
+		---	oscillator knob	above	knob spindle
+		---	knob spindle	connects	rotor
+		---	knob spindle	connects	false cover
+worker_100	table fan	---	speed control knob	part of	stand
+		---	stand	connects	stator
+		---	stand	connects	rotor
+		---	rotor	connects	stator
+		---	rotor	connects	blade shank
+		---	guard	surrounds	blade shank
+		---	guard	surrounds	blade
+worker_102	table fan	---	speed control knob	part of	stand
+		---	blade	inside	guard
+		---	blade	above	stand
+		---	blade shank	behind	blade
+		---	rotor	behind	stator
+		---	stator	behind	blade shank
+worker_101	truck	---	chassis	connects	trailer
+		---	trailer	above	chassis
+		---	chassis	above	wheels
+		---	trailer	above	wheels
+		---	trailer	behind	cab
+		---	trailer	connects	cab
+		---	cab	behind	engine
+		---	cab	above	wheels
+		---	engine	above	wheels
+worker_100	truck	---	engine	inside	cab
+		---	engine	connects	chassis
+		---	chassis	connects	cab
+		---	chassis	behind	cab
+		---	trailer	above	chassis
+		---	trailer	connects	chassis
+		---	trailer	above	wheels
+		---	wheels	connects	chassis
+worker_102	truck	---	cab	above	wheels
+		---	cab	requires	engine
+		---	cab	behind	engine
+		---	cab	connects	trailer
+		---	trailer	behind	cab
+		---	trailer	above	chassis
+worker_101	washing machine	---	water inlet waves	connects	drum
+		---	lid	above	drum
+		---	lid	connects	lid switch
+		---	drum	surrounds	agitator
+		---	agitator	above	transmission
+		---	agitator	connects	transmission
+		---	frame	surrounds	transmission
+		---	frame	surrounds	motor
+		---	lid switch	connects	frame
+		---	drain hose	connects	water pump
+		---	frame	surrounds	water pump
+		---	frame	above	leveling feet
+		---	leveling feet	connects	frame
+		---	frame	connects	power supply
+worker_102	washing machine	---	controls	next to	monitors
+		---	controls	above	lid
+		---	monitors	above	lid
+		---	lid	above	drum
+		---	drum	above	transmission
+		---	drum	above	motor
+		---	agitator	inside	drum
+		---	power supply	behind	drum
+		---	transmission	next to	motor
+		---	transmission	requires	motor supply
+		---	motor	requires	power supply
+		---	water pump	next to	transmission
+worker_103	washing machine	---	power supply	behind	water pump
+		---	water pump	behind	transmission
+		---	transmission	behind	motor
+		---	transmission	above	levelling feet
+		---	agitator	above	transmission
+		---	agitator	surrounds	drum
+		---	controls	above	lid
+		---	lid	above	drum
+worker_101	wheelchair	---	push handle	above	backseat
+		---	backseat	behind	seat
+		---	fork	above	frame
+		---	backseat	connects	seat
+		---	backseat	connects	frame
+		---	fork	connects	frame
+		---	seat	connects	frame
+		---	frame	above	seat
+		---	push handle	connects	frame
+		---	frame	connects	armrest
+		---	armrest	above	wheel
+		---	frame	connects	wheel
+		---	wheels	next to	frame
+		---	brake	next to	wheel
+		---	frame	connects	footrest
+		---	footrest	connects	footplate
+		---	footrest	connects	heel loop
+		---	heel loop	connects	footplate
+		---	caster wheel	connects	fork
+		---	fork	above	caster wheel
+worker_102	wheelchair	---	push handle	above	backseat
+		---	backseat	connects	frame
+		---	push handle	connects	frame
+		---	backseat	connects	seat
+		---	armrest	connects	frame
+		---	armrest	above	seat
+		---	seat	above	wheels
+		---	wheels	requires	brake
+		---	wheels	next to	brake
+		---	seat	above	footplate
+		---	footplate	part of	footrest
+		---	seat	above	footrest
+worker_100	wheelchair	---	backseat	connects	seat
+		---	backseat	above	seat
+		---	seat	connects	footrest
+		---	seat	above	footrest
+		---	footrest	connects	footplate
+		---	footrest	above	footplate
+		---	footrest	connects	frame
+		---	frame	connects	wheels
+		---	wheels	connects	brake
+		---	seat	connects	frame
+		---	seat	connects	armrest
+		---	armrest	connects	frame
+		---	backseat	connects	armrest
+		---	backseat	connects	frame
+		---	pull handle	connects	frame
+worker_101	zipper	---	tape end	part of	tape
+		---	tape	connects	top stop
+		---	top stop	above	chain
+		---	tape	connects	chain
+		---	pull tab	next to	slider
+		---	pull tab	connects	slider
+		---	slider	connects	chain
+		---	slider	next to	chain
+		---	teeth	part of	chain
+worker_100	zipper	---	top stop	above	teeth
+		---	top stop	connects	chain
+		---	tape	connects	chain
+		---	teeth	connects	chain
+		---	teeth	above	bottom stop
+		---	chain	connects	bottom stop
+		---	chain	connects	slider
+		---	slider	connects	pull tab
+		---	pull tab	above	bottom stop
+worker_102	zipper	---	top stop	above	teeth
+		---	teeth	behind	slider
+		---	slider	connects	pull tab
+		---	teeth	connects	chain
+		---	chain	next to	tape
+		---	tape	next to	teeth
+		---	chain	above	bottom stop

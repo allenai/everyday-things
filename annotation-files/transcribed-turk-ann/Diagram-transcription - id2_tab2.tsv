@@ -1,0 +1,574 @@
+worker_103	backpack	---	Handle loop	above	main compartment	
+		---	padded back	behind	main compartment	
+		---	padded back	connects	shoulder straps	
+		---	main compartment 	connects	front pocket	
+		---	main compartment 	surrounds	main zip	
+		---	main compartment 	next to	side pocket	
+worker_102	backpack	---	Handle loop	above	main compartment	
+		---	Handle loop	connects	main compartment	
+		---	main zip	connects	main compartment	
+		---	main zip	above	side pocket	
+		---	side pocket	next to	front pocket	
+		---	main compartment 	above	front pocket	
+		---	padded back	behind	main compartment	
+		---	padded back	connects	shoulder straps	
+		---	shoulder straps	behind	main compartment	
+worker_100	backpack	---	padded back	connects	handle loop	
+		---	padded back	connects	shoulder straps	
+		---	padded back	connects	main zip	
+		---	main compartment	inside	padded back	
+		---	side pocket	connects	padded back	
+		---	side pocket	connects	front pocket	
+		---	padded back	behind	front pocket	
+worker_101	deer	---	ear	above	eye	
+		---	ear	next to	eye	
+		---	ear	next to	antler	
+		---	ear	connects	head	
+		---	antler	connects	head	
+		---	eye	connects	head	
+		---	eye	above	nose	
+		---	head	connects	nose	
+		---	head	connects	mouth	
+		---	head	connects	torso	
+		---	torso	connects	head	
+		---	torso	connects	tail	
+		---	torso	connects	leg	
+		---	torso	behind	head	
+		---	torso	above	leg	
+		---	tail	behind	torso	
+		---	nose	above	mouth	
+		---	leg	connects	hoof	
+		---	leg	above	hoof	
+worker_100	deer	---	ear	next to	antler	
+		---	ear	above	eye	
+		---	antler	above	eye	
+		---	eye	above	nose	
+		---	nose	above	mouth	
+		---	tail	behind	ear	
+		---	tail	behind	antler	
+		---	tail	behind	eye	
+		---	tail	behind	nose	
+		---	tail	behind	mouth	
+		---	tail	above	leg	
+		---	leg	connects	hoof	
+		---	leg	above	hoof	
+worker_102	deer	---	antler	connects	head	
+		---	antler	above	head	
+		---	eye	above	nose	
+		---	eye	part of	head	
+		---	nose	above	mouth	
+		---	nose	part of	head	
+		---	mouth	part of	head	
+		---	head	connects	ear	
+		---	head	connects	body	
+		---	body	behind	head	
+		---	body	connects	head	
+		---	body	connects	tail	
+		---	body	connects	leg	
+		---	body	above	leg	
+		---	tail	behind	body	
+		---	leg	above	hoof	
+		---	leg	connects	hoof	
+worker_101	dog	---	ear	next to	head	
+		---	ear	connects	head	
+		---	head	connects	mouth	
+		---	head	connects	nose	
+		---	head	connects	eye	
+		---	head	connects	body	
+		---	head	above	body	
+		---	body	behind	head	
+		---	body	connects	head	
+		---	body	above	leg	
+		---	body	connects	leg	
+		---	nose	above	mouth	
+		---	tongue	inside	mouth	
+		---	leg	connects	tail	
+		---	leg	above	foot	
+		---	leg	connects	foot	
+		---	tail	behind	leg	
+		---	eye	above	nose	
+worker_102	dog	---	head	connects	ear	
+		---	head	connects	body	
+		---	eye	part of	head	
+		---	nose	part of	head	
+		---	nose 	above	mouth	
+		---	tongue	part of	mouth	
+		---	body	connects	tail	
+		---	body	connects	leg	
+		---	tail	behind	body	
+		---	leg	connects	foot	
+		---	leg	above	foot	
+worker_107	dog	---	head	connects	torso	
+		---	eye	part of	head	
+		---	nose	part of	head	
+		---	ear	part of	head	
+		---	mouth	part of	head	
+		---	tongue	inside	mouth	
+		---	torso	connects	leg	
+		---	torso	connects	tail	
+		---	leg	connects	foot	
+worker_101	doorbell	---	transformer	connects	wiring	
+		---	transformer	connects	power supply	
+		---	bell wire	connects	doorbell button	
+		---	bell wire	connects	chime unit	
+worker_102	doorbell	---	transformer	connects	bell wire	
+		---	transformer	connects	chime unit	
+		---	bell wire	connects	doorbell button	
+		---	doorbell button	connects	chime unit	
+worker_107	doorbell	---	transformer	connects	bell wire	
+		---	transformer	connects	power supply	
+		---	bell wire	connects	doorbell button	
+		---	chime unit	connects	transformer	
+		---	chime unit	connects	doorbell button	
+worker_101	fire extinguisher	---	tamper seal	connects	pull pin	
+		---	tamper seal	next to	pull pin	
+		---	pull pin	above	release lever 	
+		---	pull pin	connects	release lever 	
+		---	release lever 	connects	valve assembly	
+		---	valve assembly	above	release lever 	
+		---	valve assembly	connects	hose	
+		---	valve assembly	above	cylindrical tank	
+		---	valve assembly	connects	handle	
+		---	valve assembly	connects	cylindrical tank	
+		---	valve assembly	next to	handle	
+		---	hose	connects	cylindrical tank	
+		---	propellant	inside	cylindrical tank	
+		---	extinguishing agent	inside	cylindrical tank	
+worker_102	fire extinguisher	---	hose	connects	valve assembly	
+		---	valve assembly	next to	release lever 	
+		---	release lever 	next to	poll pin	
+		---	release lever 	next to	tamper seal	
+		---	tamper seal	next to	handle	
+		---	extinguishing agent	requires	propellant	
+		---	extinguishing agent	inside	cylindrical tank	
+		---	extinguishing agent	above	propellant	
+		---	propellant	inside	cylindrical tank	
+worker_100	fire extinguisher	---	cylindrical tank	connects	valve assembly	
+		---	extinguishing agent	above	propellant	
+		---	extinguishing agent	inside	cylindrical tank	
+		---	propellant	inside	cylindrical tank	
+		---	valve assembly	above	cylindrical tank	
+		---	valve assembly	connects	hose	
+		---	pull pin	part of	valve assembly	
+		---	pull pin	connects	handle	
+		---	release lever	part of	valve assembly	
+		---	release lever	above	tamper seal	
+		---	tamper seal	part of	valve assembly	
+		---	tamper seal	above	handle	
+		---	handle	part of	valve assembly	
+worker_101	hair dryer	---	barrel	connects	air-outlet grille	
+		---	barrel	connects	fan housing	
+		---	barrel	connects	handle	
+		---	barrel	above	handle	
+		---	barrel	behind	air-outlet grille	
+		---	fan housing	connects	air-inlet grille	
+		---	fan housing	connects	handle	
+		---	fan housing	above	handle	
+		---	fan housing	behind	barrel	
+		---	air-inlet grille	behind	fan housing	
+		---	handle	connects	heat selector switch	
+		---	handle	connects	on-off switch	
+		---	handle	connects	speed selector switch	
+		---	handle	connects	power supply cord	
+		---	handle	above	power supply cord	
+		---	handle	above	hang-up ring	
+		---	handle	connects	hang-up ring	
+		---	heat selector switch 	next to	on-off switch	
+		---	heat selector switch 	next to	speed selector switch	
+		---	speed selector switch	next to	on-off switch	
+		---	power supply cord	next to	hang-up ring	
+worker_100	hair dryer	---	fan blades	inside	fan housing	
+		---	barrel	connects	fan housing	
+		---	barrel	connects	handle	
+		---	barrel	above	handle	
+		---	fan housing	behind	barrel	
+		---	air-outlet grille	inside	barrel	
+		---	heating coils	inside	barrel	
+		---	heating coils	behind	air-outlet grille	
+		---	handle	connects	power cord	
+		---	handle	above	power cord	
+		---	speed selector switch	part of	handle	
+		---	speed selector switch	next to	power switch	
+		---	power switch	part of	handle	
+worker_102	hair dryer	---	barrel	connects	fan housing	
+		---	barrel	connects	handle	
+		---	fan housing	above	handle	
+		---	air-outlet grille	inside	barrel	
+		---	speed selector switch	part of	handle	
+		---	speed selector switch	above	power switch	
+		---	handle	connects	power cord	
+		---	power switch	part of	handle	
+worker_101	ink pen	---	barrel 	connects	cap	
+		---	barrel 	surrounds	section 	
+		---	barrel 	surrounds	converter	
+		---	nib	inside	cap	
+		---	feed 	inside	nib	
+		---	feed 	connects	section 	
+		---	section	inside	barrel	
+		---	section	connects	converter	
+		---	cap	surrounds	nib	
+		---	cap	surrounds	feed	
+		---	converter	inside	barrel	
+worker_100	ink pen	---	nib	connects	feed	
+		---	nib	above	feed	
+		---	nib	inside	cap	
+		---	feed 	connects	section 	
+		---	feed 	above	section 	
+		---	feed 	inside	cap	
+		---	section	connects	converter	
+		---	section	above	converter	
+		---	section	inside	barrel	
+		---	section	inside	cap	
+		---	converter	inside	barrel	
+		---	cap	connects	barrel	
+		---	cap	above	barrel	
+worker_102	ink pen	---	cap	connects	barrel	
+		---	cap	surrounds	nib	
+		---	feed 	inside	nib	
+		---	feed 	connects	section 	
+		---	section	connects	converter	
+		---	section	inside	barrel	
+		---	converter	inside	barrel	
+worker_107	lightbulb	---	tungesten filament	connects	filament support and contact wire	
+		---	tungesten filament	inside	glass shell	
+		---	glass shell	above	metal base	
+		---	filament support and contact wire	inside	glass shell	
+		---	filament support and contact wire	connects	tungesten filament	
+		---	glass shell	above	metal base	
+worker_101	lightbulb	---	tungesten filament	connects	filament support and contact wire	
+		---	tungesten filament	next to	filament support and contact wire	
+		---	tungesten filament	requires	electrical connection	
+		---	glass shell	surrounds	tungesten filament	
+		---	glass shell	surrounds	filament support and contact wire	
+		---	glass shell	connects	metal base	
+		---	glass shell	above	metal base	
+		---	filament support and contact wire	connects	metal base	
+		---	filament support and contact wire	above	metal base	
+		---	metal base	connects	electrical connection	
+		---	metal base	above	electrical connection	
+worker_102	lightbulb	---	glass shell	surrounds	tungesten filament	
+		---	glass shell	surrounds	filament support and contact wire	
+		---	tungesten filament	connects	filament support and contact wire	
+		---	tungesten filament	above	filament support and contact wire	
+		---	tungesten filament	requires	electrical connection	
+		---	filament support and contact wire	connects	metal base	
+		---	filament support and contact wire	above	metal base	
+		---	filament support and contact wire	requires	electrical connection	
+		---	electrical connection 	part of	metal base	
+worker_101	microscope	---	eyepiece	connects	body tube	
+		---	eyepiece	above	body tube	
+		---	body tube	connects	coarse focus	
+		---	body tube	connects	arm	
+		---	body tube	connects	nosepiece	
+		---	body tube	above	nosepiece	
+		---	body tube	above	arm	
+		---	nosepiece	connects	objective lens	
+		---	nosepiece	above	objective lens	
+		---	arm	connects	fine focus	
+		---	arm	connects	base	
+		---	arm	connects	stage clips	
+		---	arm	connects	specimen stage	
+		---	arm	above	base	
+		---	specimen stage	connects	stage clips	
+		---	specimen stage	above	illumination mirror	
+		---	illumination mirror	above	base	
+		---	arm 	connects	illumination mirror	
+worker_102	microscope	---	eyepiece	connects	eyepiece tube	
+		---	eyepiece tube	connects	body tube	
+		---	body tube	above	arm	
+		---	body tube	above	nosepiece	
+		---	arm 	above	base	
+		---	objective lens	part of	nosepiece	
+		---	stage clips	next to	specimen stage	
+		---	specimen stage	above	base	
+		---	specimen stage	above	illumination mirror	
+worker_104	microscope	---	eyepiece	above	coarse focus	
+		---	coarse focus	above	objective lens	
+		---	coarse focus	above	nosepiece	
+		---	objective lens	next to	nosepiece	
+		---	objective lens	next to	arm	
+		---	nosepiece	next to	arm	
+		---	arm	above	specimen stage	
+		---	specimen stage	next to	stage clips	
+		---	stage clips	above	illumination mirror	
+		---	illumination mirror	above	base	
+worker_103	rabbit	---	eye	inside	head	
+		---	eye	above	nose	
+		---	nose	above	mouth	
+		---	ear	above	head	
+		---	whiskers	connects	head	
+		---	head	above	body	
+		---	body	above	leg	
+		---	tail	behind	body	
+		---	leg	above	foot	
+worker_101	rabbit	---	eye	connects	head	
+		---	eye	above	nose	
+		---	eye	behind	nose	
+		---	ear	above	eye	
+		---	ear	behind	eye	
+		---	ear	connects	head	
+		---	ear	above	head	
+		---	nose	above	mouth	
+		---	nose	connects	head	
+		---	mouth	connects	head	
+		---	head	behind	ear	
+		---	head	above	body	
+		---	head	connects	body	
+		---	body	behind	head	
+		---	body	connects	leg	
+		---	body	connects	foot	
+		---	body	connects	tail	
+		---	body	above	leg	
+		---	body	above	foot	
+		---	tail 	behind	body	
+		---	foot 	behind	leg	
+worker_102	rabbit	---	ear	above	head	
+		---	ear	connects	head	
+		---	head	connects	body	
+		---	eye	part of	head	
+		---	eye	above	nose	
+		---	nose	part of	head	
+		---	nose	above	mouth	
+		---	mouth	part of	head	
+		---	body	connects	leg	
+		---	body	connects	foot	
+		---	body	connects	tail	
+		---	body	above	leg	
+		---	body	above	foot	
+		---	tail 	behind	body	
+worker_102	refrigerator	---	freezer 	behind	freezer door	
+		---	freezer 	above	door	
+		---	ice cube tray 	inside	freezer	
+		---	shelf	next to	bottle storage	
+		---	shelf	behind	door	
+		---	thermostat control	behind	door	
+		---	crisper	above	shelf	
+worker_100	refrigerator	---	ice cube tray 	inside	freezer	
+		---	freezer	connects	freezer door	
+		---	freezer	connects	refrigerator	
+		---	freezer	above	refrigerator	
+		---	refrigerator	connects	refrigerator door	
+		---	shelf 	inside	refrigerator	
+		---	bottle storage	inside	refrigerator door	
+		---	bottle storage	part of	refrigerator door	
+		---	thermostat control	inside	refrigerator	
+worker_104	refrigerator	---	ice cube tray	part of	freezer	
+		---	freezer	above	thermostat control	
+		---	thermostat control	above	shelf	
+		---	shelf	above	crisper	
+		---	shelf	above	lower door	
+		---	crisper	next to	lower door	
+worker_100	rocket	---	nose cone	above	payload system	
+		---	nose cone	part of	structure system	
+		---	payload system	above	guidance system	
+		---	guidance system	above	propulsion system	
+		---	fuel	part of	propulsion system	
+		---	fuel	above	oxidizer	
+		---	oxidizer	part of	propulsion system	
+		---	oxidizer	above	pumps	
+		---	pumps	part of	propulsion system	
+		---	pumps	above	nozzle	
+		---	nozzle	part of	propulsion system	
+		---	structure system	surrounds	propulsion system	
+		---	frame	part of	structure system	
+		---	frame	above	fin	
+		---	fin	part of	structure system	
+worker_108	rocket	---	structure system	requires	frame	
+		---	structure system	part of	nose cone	
+		---	structure system	part of	fuel	
+		---	payload system	inside	nose cone	
+		---	fuel	above	oxidizer	
+		---	guidance system	requires	fuel	
+		---	guidance system	requires	payload system	
+		---	guidance system	inside	payload system	
+		---	oxidizer	connects	pumps	
+		---	pumps	behind	nozzle	
+		---	nozzle	next to	fin	
+worker_102	rocket	---	nose cone	above	fuel	
+		---	payload system	inside	nose cone	
+		---	payload system	above	guidance system	
+		---	fuel	above	frame	
+		---	guidance system	above	fuel	
+		---	frame	above	oxidizer	
+		---	oxidizer	above	pumps	
+		---	pumps	above	nozzle	
+		---	nozzle	above	fin	
+worker_101	sandwich	---	top bread	above	fillings	
+		---	fillings	above	bottom bread	
+worker_100	sandwich	---	top bread	above	fillings	
+		---	top bread	connects	fillings	
+		---	fillings	above	bottom bread	
+		---	fillings	connects	bottom bread	
+worker_102	sandwich	---	top bread	above	fillings	
+		---	fillings	above	bottom bread	
+worker_101	screw	---	head	above	shank	
+		---	head	connects	shank	
+		---	shank	connects	threads	
+		---	shank 	above	threads	
+		---	threads	connects	tip	
+		---	threads	above	tip	
+worker_102	screw	---	head	above	shank	
+		---	head	connects	shank	
+		---	shank	connects	threads	
+		---	shank 	above	threads	
+		---	threads	connects	tip	
+		---	threads	above	tip	
+worker_107	screw	---	head 	above	shank	
+		---	threads	part of	shank	
+		---	tip	part of	shank	
+worker_106	space heater	---	carry handle	above	control switch	
+		---	carry handle	above	adjustable thermostat	
+		---	control switch	above	heating coil	
+		---	adjustable thermostat	above	heating coil	
+		---	heating coil	part of	fan	
+		---	fan	requires	power cord	
+worker_107	space heater	---	control switch 	next to	adjustable thermostat	Incomplete diagram. Several edges not labeled.
+		---	power cord	requires	heating coil	Some Noise
+		---	power cord	requires	fan	
+		---	fan	inside	casing	
+		---	adjustable thermostat	requires	heating coil	
+worker_100	space heater	---	heating coil	inside	casing	
+		---	heating coil	above	fan	
+		---	control switch	part of	casing	
+		---	control switch	next to	adjustable thermostat	
+		---	adjustable thermostat	part of	casing	
+		---	carry handle	part of	casing	
+		---	carry handle	behind	adjustable thermostat	
+		---	carry handle	behind	control switch	
+		---	power cord	connects	casing	
+		---	fan	inside	casing	
+worker_101	toaster	---	toasting slots	above	bread carriage handle	
+		---	toasting slots	above	indicators	
+		---	toasting slots	part of	frame	
+		---	frame	connects	power cord	
+		---	frame	connects	bread carriage handle	
+		---	frame	connects	crumb tray	
+		---	frame	connects	indicators	
+		---	bread carriage handle	next to	indicators	
+worker_104	toaster	---	toasting slots	above	bread carriage handle	
+		---	toasting slots	above	reheat button	
+		---	reheat button	next to	bread carriage handle	
+		---	reheat button	next to	frozen bread button	
+		---	frozen bread button	next to	eject button	
+		---	frozen bread button	next to	bread carriage handle	
+		---	eject button	above	crumb trays	
+		---	eject button	next to	bread carriage handle	
+		---	bread carriage handle	above	crumb trays	
+worker_102	toaster	---	toasting slots	above	bread carriage handle	
+		---	toasting slots	above	crumb tray	
+		---	toasting slots	above	reheat button	
+		---	toasting slots	requires	power cord	
+		---	reheat button	above	frozen bread button	
+		---	frozen bread button	above	eject button	
+		---	eject button	above	browning control	
+worker_102	typewriter	---	carriage release lever	next to	paper table	
+		---	carriage release lever	above	type guide + ribbon vibrator	
+		---	paper table	above	paper finger	
+		---	type guide + ribbon vibrator	above	keytop	
+		---	type guide + ribbon vibrator	connects	ribbon spool	
+		---	platen	next to	paper finger	
+		---	platen	behind	type guide + ribbon vibrator	
+		---	ribbon spool	above	typebars	
+worker_103	typewriter	---	paper table	above	type guide	
+		---	paper table	above	paper finger	
+		---	paper table	above	ribbon vibrator	
+		---	paper finger	behind	type guide	
+		---	paper finger	behind	ribbon vibrator	
+		---	paper finger	part of	platen	
+		---	carriage release lever	connects	platen	
+		---	type guide	connects	ribbon vibrator	
+		---	platen 	behind	ribbon vibrator	
+		---	platen 	behind	type guide	
+		---	type bars	behind	ribbon vibrator	
+		---	type bars	behind	type guide	
+		---	type bars	above	keytop	
+worker_100	typewriter	---	platen 	connects	carriage release lever	
+		---	platen 	connects	type guide	
+		---	platen 	connects	paper finger	
+		---	platen 	connects	paper table	
+		---	platen 	above	type bars	
+		---	paper table	connects	paper finger	
+		---	type bars	above	keytop	
+worker_101	violin	---	scroll	connects	pegbox	
+		---	pegbox	connects	strings	
+		---	pegbox	connects	neck and fingerboard	
+		---	neck and fingerboard	connects	body	
+		---	neck and fingerboard	above	body	
+		---	strings	above	neck and fingerboard	
+		---	strings	above	body	
+		---	strings	connects	tailpiece	
+		---	f-holes	part of	body	
+		---	body	connects	bridge	
+		---	body	connects	chin rest	
+		---	bridge	above	body	
+		---	bridge	next to	tailpiece	
+		---	chin rest	above	body	
+		---	chin rest	next to	tailpiece	
+		---	tailpiece	above	body	
+worker_104	violin	---	scroll	above	pegbox	
+		---	pegbox	next to	strings	
+		---	body	behind	strings	
+		---	body	behind	f-holes	
+		---	body	behind	bridge	
+		---	body	behind	chin rest	
+		---	f-holes	next to	bridge	
+		---	bridge	behind	strings	
+		---	bridge	above	chin rest	
+		---	chin rest	behind	strings	
+worker_102	violin	---	scroll	part of	pegbox	
+		---	pegbox	above	neck and fingerboard	
+		---	pegbox	connects	neck and fingerboard	
+		---	neck and fingerboard	above	body	
+		---	neck and fingerboard	connects	body	
+		---	strings	part of	neck and fingerboard	
+		---	f-holes	next to	bridge	
+		---	bridge	part of	body	
+		---	bridge	next to	f-holes	
+		---	bridge	above	tailpiece	
+		---	tailpiece	part of	body	
+		---	tailpiece	above	chin rest	
+worker_101	wall clock	---	face	inside	case	
+		---	face	behind	minute hand	
+		---	minute hand	inside	case	
+		---	minute hand	next to	hour hand	
+		---	minute hand	connects	hour hand	
+		---	hour hand	inside	case	
+		---	escape wheel	inside	case	
+		---	escape wheel	connects	main wheel	
+		---	escape wheel	next to	main wheel	
+		---	main wheel	inside	case	
+worker_102	wall clock	---	dial	inside	case	
+		---	dial	requires	battery	
+		---	hour hand	part of	dial	
+		---	hour hand	connects	minute hand	
+		---	battery	inside	case	
+		---	minute hand	part of	dial	
+worker_107	wall clock	---	dial	behind	minute hand	
+		---	dial	behind	hour hand	
+		---	dial	inside	case	
+		---	hours	part of	dial	
+		---	minutes	part of	dial	
+		---	main wheel	part of	dial	
+		---	main wheel	requires	escape wheel	
+		---	main wheel	behind	case	
+		---	escape wheel	part of	dial	
+		---	escape wheel	behind	case	
+worker_101	window	---	hinge 	surrounds	glass panel	
+		---	hinge 	connects	lock handle 	
+		---	hinge 	connects	operator	
+worker_102	window	---	glass panel	connects	top hinge	
+		---	top hinge 	above	glass panel	
+		---	glass panel	next to	lock handle	
+		---	glass panel	connects	operator	
+		---	glass panel	above	operator	
+		---	top hinge 	above	lock handle	
+		---	lock handle	above	operator	
+		---	operator	next to	bottom hinge	
+worker_107	window	---	top hinge 	above	operator	
+		---	top hinge 	above	glass panel	
+		---	top hinge 	above	lock handle	
+		---	operator	next to	glass panel	
+		---	lock handle	next to	glass panel	
+		---	operator	above	bottom hinge	
+		---	lock handle	above	bottom hinge	
+		---	glass panel	above	bottom hinge	

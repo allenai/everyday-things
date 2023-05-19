@@ -1,0 +1,490 @@
+worker_101	apple	---	seeds	part of	core
+		---	flesh	surrounds	core
+		---	skin	surrounds	flesh
+		---	stem	connects	skin
+		---	stem	connects	leaf
+		---	leaf	above	stem
+		---	stem	above	skin
+worker_108	apple	---	seeds	inside	core
+		---	core	part of	seeds
+		---	core	surrounds	flesh
+		---	flesh	requires	skin
+		---	skin	connects	stem
+		---	stem	next to	leaf
+worker_100	apple	---	seeds	inside	core
+		---	core	inside	flesh
+		---	skin	surrounds	flesh
+		---	skin	connects	stem
+		---	stem	connects	leaf
+worker_103	barbeque grill	---	grease tray	behind	heat plates
+		---	burner	next to	heat plates
+		---	heat plates	above	carryover tubes
+		---	control knobs	behind	heat plates
+		---	heat plates	next to	cooking grate
+		---	control knobs	next to	ignitor
+		---	temperature gauge	above	warming rack
+		---	warming rack	above	cooking grate
+worker_102	barbeque grill	---	temperature gauge	above	warming rack
+		---	warming rack	above	cooking grate
+		---	cooking grate	above	heat plates
+		---	heat plates	next to	burner
+		---	burner	above	carryover tubes
+		---	cooking grate	above	control knobs
+		---	cooking grate	above	ignitor
+		---	control knobs	next to	ignitor
+worker_104	barbeque grill	---	temperature gauge	above	warming rack
+		---	warming rack	next to	burner
+		---	burner	above	carryover tubes
+		---	carryover tubes	next to	control knobs
+		---	warming rack	above	control knobs
+		---	control knobs	next to	ignitor
+		---	warming rack	next to	cooking grate
+		---	cooking grate	above	ignitor
+worker_101	coffee maker	---	reservoir	above	signal lamp
+		---	water level	inside	reservoir
+		---	signal lamp	above	switch
+		---	switch	behind	carafe
+		---	signal lamp	behind	carafe
+		---	reservoir	behind	carafe
+		---	carafe	above	warming plate
+		---	filter	inside	filter basket
+		---	lid	above	filter basket
+		---	filter basket	above	carafe
+worker_103	coffee maker	---	lid	above	filter
+		---	lid	above	reservoir
+		---	reservoir	above	signal lamp
+		---	signal lamp	behind	carafe
+		---	signal lamp	above	switch
+		---	switch	behind	carafe
+		---	carafe	above	warming plate
+		---	reservoir	behind	carafe
+		---	reservoir	behind	filter basket
+		---	reservoir	behind	filter
+		---	filter	above	filter basket
+		---	filter basket	above	carafe
+worker_102	coffee maker	---	lid	above	filter basket
+		---	lid	above	reservoir
+		---	reservoir	above	signal lamp
+		---	signal lamp	above	switch
+		---	filter basket	above	carafe
+		---	carafe	above	warming plate
+worker_101	digital clinical thermometer	---	display window	next to	on/off button
+		---	on/off button	next to	sensor
+		---	sensor	connects	body
+		---	body	connects	battery cover
+		---	body	connects	display window
+		---	body	connects	on/off button
+worker_102	digital clinical thermometer	---	sensor	next to	display window
+		---	display window	next to	on/off button
+		---	on/off button	next to	battery cover
+worker_104	digital clinical thermometer	---	sensor	connects	display window
+		---	display window	next to	on/off button
+		---	on/off button	next to	battery cover
+		---	battery cover	connects	bottom/back
+worker_105	dishwasher	---	control pad	above	door latch
+		---	door latch	above	dergent dispenser
+		---	door latch	connects	door
+		---	upper rack	behind	door
+		---	spray arms	behind	door
+		---	lower rack	behind	door
+		---	upper rack	above	spray arms
+		---	spray arms	above	lower rack
+		---	lower rack	above	heating element
+		---	heating element	next to	water inlet valve
+		---	water inlet valve	next to	motor
+		---	motor	next to	fiteration system
+		---	lower rack	above	fiteration system
+		---	lower rack	above	motor
+		---	lower rack	above	water inlet valve
+worker_100	dishwasher	---	door latch	next to	control pad
+		---	door latch	above	dergent dispenser
+		---	door latch	part of	door
+		---	dergent dispenser	part of	door
+		---	control pad	part of	door
+		---	door	connects	main compartment
+		---	racks	inside	main compartment
+		---	racks	above	spray arms
+		---	spray arms	above	silverware basket
+		---	silverware basket	above	heating element
+		---	heating element	next to	water inlet valve
+		---	water inlet valve	next to	motor
+		---	silverware basket	above	water inlet valve
+		---	motor	next to	fiteration system
+		---	silverware basket	above	fiteration system
+		---	silverware basket	above	motor
+worker_104	dishwasher	---	racks	above	spray arms
+		---	spray arms	above	silverware basket
+		---	silverware basket	above	motor
+		---	motor	next to	heating element
+		---	heating element	next to	water inlet valve
+		---	water inlet valve	next to	motor
+worker_101	door	---	lock jamb	connects	threshold
+		---	threshold	connects	casing
+		---	casing	surrounds	lock jamb
+		---	doorhandle	above	lock
+		---	lock	connects	doorhandle
+		---	doorhandle	connects	door
+		---	lock	connects	door
+		---	door	next to	hinge jamb
+		---	door	connects	hinge jamb
+		---	hinge	connects	casing
+		---	casing	next to	hinge jamb
+		---	hinge jamb	connects	hinge
+		---	hinge jamb	next to	hinge
+		---	door	above	leaf
+		---	door	connects	leaf
+		---	door	connects	hinge
+worker_100	door	---	lock jamb	part of	casing
+		---	hinge jamb	part of	casing
+		---	casing	connects	threshold
+		---	casing	surrounds	leaf
+		---	hinge jamb	connects	hinge
+		---	hinge	connects	leaf
+		---	lock	part of	leaf
+		---	doorhandle	above	lock
+		---	doorhandle	part of	leaf
+		---	leaf	above	threshold
+worker_104	door	---	casing	surrounds	hinge jamb
+		---	hinge jamb	above	lock jamb
+		---	lock jamb	next to	doorhandle
+		---	doorhandle	above	lock
+		---	lock	above	hinge
+		---	hinge	above	threshold
+worker_101	dryer	---	vent	above	feet
+		---	frame	above	feet
+		---	frame	connects	vent
+		---	frame	connects	feet
+		---	door latch	part of	door
+		---	door hinges	connects	door
+		---	door	connects	door seal
+		---	door hinges	connects	frame
+		---	frame	connects	knobs/dials
+		---	knobs/dials	above	door
+		---	frame	connects	lint filter
+		---	frame	connects	door swtich
+worker_106	dryer	---	knobs/dials	above	lint filter
+		---	lint filter	above	door switch
+		---	door switch	above	door seal
+		---	baffles	inside	door seal
+		---	door seal	above	vent
+		---	vent	above	feet
+		---	bulb	inside	door seal
+		---	door latch	connects	door seal
+worker_102	dryer	---	knobs/dials	above	lint filter
+		---	lint filter	above	door
+		---	vent	next to	door
+		---	dryer drum	requires	power cord
+		---	dryer drum	behind	door
+		---	baffles	inside	dryer drum
+		---	bulb	inside	dryer drum
+worker_107	earphone	---	drivers	inside	housing
+		---	housing	inside	sleeves/covers
+		---	sleeves/covers	connects	cable
+		---	cable	connects	plug
+worker_101	earphone	---	sleeves/covers	connects	drivers
+		---	drivers	connects	cable
+		---	cable	connects	plug
+		---	drivers	requires	plug
+worker_102	earphone	---	plug	connects	cable
+		---	cable	requires	plug
+		---	housing	connects	cable
+		---	housing	surrounds	drivers
+		---	sleeves/covers	part of	housing
+worker_101	fish	---	caudal fin	behind	anal fin
+		---	anal fin	behind	pelvic fin
+		---	pelvic fin	behind	pectoral fin
+		---	pectoral fin	behind	gill cover
+		---	scale	behind	gill cover
+		---	gill cover	behind	eye
+		---	spiny	behind	gill
+		---	gill cover	behind	gill
+		---	eye	behind	nostril
+		---	nostril	above	mouth
+		---	eye	behind	mouth
+worker_100	fish	---	nostril	above	mouth
+		---	eye	behind	nostril
+		---	eye	behind	mouth
+		---	gill cover	behind	eye
+		---	gill	behind	eye
+		---	gill	inside	gill cover
+		---	pectoral fin	behind	gill cover
+		---	pectoral fin	behind	gill
+		---	pelvic fin	behind	pectoral fin
+		---	spiny	behind	pectoral fin
+		---	spiny	above	pelvic fin
+		---	anal fin	behind	pelvic fin
+		---	anal fin	behind	spiny
+		---	caudal fin	behind	anal fin
+worker_102	fish	---	caudal fin	behind	spiny
+		---	caudal fin	behind	anal fin
+		---	anal fin	behind	pelvic fin
+		---	spiny	above	pelvic fin
+		---	spiny	behind	gill
+		---	gill	inside	gill cover
+		---	pelvic fin	behind	pectoral fin
+		---	pectoral fin	next to	gill cover
+		---	eye	next to	nostril
+		---	nostril	above	mouth
+worker_107	flower	---	flowerhead	above	stem
+		---	leaf	connects	stem
+		---	flower	above	leaf
+		---	seeds	inside	flowerhead
+		---	petals	connects	flower
+worker_101	flower	---	petals	surrounds	seeds
+		---	seeds	part of	flowerhead
+		---	petals	part of	flowerhead
+		---	flowerhead	connects	stem
+		---	flowerhead	above	stem
+		---	leaf	connects	stem
+		---	leaf	next to	stem
+		---	stem	above	roots
+		---	stem	connects	roots
+worker_102	flower	---	petals	surrounds	seeds
+		---	petals	above	stem
+		---	petals	connects	stem
+		---	petals	requires	stem
+		---	leaf	connects	stem
+		---	stem	above	roots
+		---	stem	connects	roots
+		---	stem	requires	roots
+worker_100	kayak	---	stern	behind	deck
+		---	handles	part of	deck
+		---	foot rests	inside	deck
+		---	seat	behind	foot rests
+		---	seat	inside	deck
+		---	deck	behind	bow
+		---	cockpit	part of	deck
+		---	foot rests	inside	deck
+		---	seat	inside	cockpit
+worker_101	kayak	---	stern	connects	rear handle
+		---	rear handle	connects	rear deck
+		---	rear handle	behind	rear deck
+		---	rear deck	behind	cockpit
+		---	seat	inside	cockpit
+		---	cockpit	behind	front deck
+		---	stern	behind	rear handle
+		---	seat	behind	foot rests
+		---	foot rests	inside	cockpit
+		---	front deck	connects	front handle
+		---	front deck	behind	front handle
+		---	front handle	connects	bow
+		---	front handle	behind	bow
+worker_102	kayak	---	stern	behind	rear deck
+		---	stern	connects	rear deck
+		---	handles	part of	stern
+		---	rear deck	behind	cockpit
+		---	rear deck	connects	cockpit
+		---	seat	inside	cockpit
+		---	seat	next to	foot rests
+		---	foot rests	inside	cockpit
+		---	cockpit	behind	front deck
+		---	cockpit	connects	front deck
+		---	front deck	behind	bow
+		---	front deck	connects	bow
+		---	handles	part of	bow
+worker_101	kite	---	kite spool	connects	kite line
+		---	kite line	connects	bridle
+		---	bridle	connects	spine
+		---	spine	connects	tail
+		---	spine	above	tail
+		---	kite sail	above	tail
+		---	kite sail	connects	tail
+		---	spine	connects	kite sail
+		---	spine	behind	kite sail
+		---	spine	connects	cross spar
+		---	cross spar	connects	kite sail
+		---	cross spar	behind	kite sail
+worker_109	kite	---	cross spar	behind	kite sail
+		---	cross spar	connects	spine
+		---	spine	behind	kite sail
+		---	spine	above	bridle
+		---	bridle	connects	spine
+		---	spine	above	tail
+		---	bridle	above	kite line
+		---	kite line	connects	bridle
+		---	kite line	above	kite spool
+		---	kite spool	connects	kite line
+worker_100	kite	---	cross spar	connects	kite sail
+		---	kite sail	surrounds	cross spar
+		---	kite sail	connects	tail
+		---	kite sail	connects	spine
+		---	kite sail	surrounds	spine
+		---	spine	connects	bridle
+		---	bridle	connects	kite line
+		---	kite line	connects	kite spool
+worker_101	microphone	---	on-off switch	part of	housing
+		---	housing	connects	windscreen
+		---	housing	connects	connector
+		---	connector	connects	cable
+		---	cable	connects	plug
+worker_100	microphone	---	windscreen	connects	housing
+		---	on-off switch	part of	housing
+		---	housing	connects	connector
+		---	plug	connects	cable
+		---	connector	connects	plug
+worker_107	microphone	---	housing	connects	on-off switch
+		---	windscreen	connects	housing
+		---	windscreen	above	housing
+		---	housing	connects	connector
+		---	housing	above	connector
+		---	connector	connects	cable
+		---	cable	above	connector
+		---	plug	connects	cable
+		---	cable	above	plug
+worker_107	pencil	---	lead	inside	body
+		---	wood	connects	body
+		---	ferrule	behind	body
+		---	eraser	behind	ferrule
+worker_101	pencil	---	wood	behind	lead
+		---	body	behind	wood
+		---	ferrule	behind	body
+		---	eraser	behind	ferrule
+worker_102	pencil	---	lead	inside	wood
+		---	wood	part of	body
+		---	body	connects	ferrule
+		---	ferrule	connects	eraser
+worker_102	ship	---	accomodation bridge	next to	funnel
+		---	accomodation bridge	behind	forward
+		---	accomodation bridge	above	deck
+		---	accomodation bridge	above	hull
+		---	stern	behind	accomodation bridge
+		---	stern	above	propeller
+		---	forward	above	anchor
+		---	anchor	above	bow
+worker_104	ship	---	accomodation bridge	above	forward
+		---	forward	above	deck
+		---	deck	above	anchor
+		---	anchor	above	bow
+		---	bow	connects	hull
+worker_103	ship	---	stern	above	propeller
+		---	propeller	inside	hull
+		---	deck	connects	stern
+		---	deck	above	hull
+		---	accomodation bridge	above	deck
+		---	funnel	behind	accomodation bridge
+		---	funnel	above	deck
+		---	deck	connects	forward
+		---	forward	above	bow
+		---	hull	surrounds	anchor
+		---	anchor	behind	bow
+worker_101	suitcase	---	front shell	connects	wheel fork
+		---	wheel fork	connects	wheel
+		---	wheel fork	above	wheel
+		---	front shell	above	wheel fork
+		---	back shell	behind	front shell
+		---	back shell	connects	top handle
+		---	top handle	above	back shell
+		---	side carry handle	connects	back shell
+		---	zipper lock	above	side carry handle
+		---	zipper lock	connects	back shell
+		---	trolley handle	behind	back shell
+		---	trolley handle	connects	back shell
+		---	back shell	above	wheel fork
+		---	back shell	connects	wheel fork
+worker_100	suitcase	---	wheel	connects	wheel fork
+		---	wheel fork	connects	front shell
+		---	front shell	connects	zipper
+		---	zipper	connects	back shell
+		---	zipper	connects	zipper lock
+		---	zipper lock	above	side carry handle
+		---	back shell	connects	side carry handle
+		---	back shell	connects	trolley handle
+		---	trolley handle	above	top handle
+		---	top handle	above	side carry handle
+		---	back shell	connects	top handle
+		---	back shell	connects	wheel fork
+		---	zipper lock	connects	back shell
+worker_102	suitcase	---	trolley handle	above	top handle
+		---	top handle	next to	zipper
+		---	zipper	next to	front shell
+		---	front shell	above	wheel
+		---	front shell	above	wheel fork
+		---	back shell	behind	front shell
+		---	zipper	next to	zipper lock
+		---	zipper lock	next to	side carry handle
+		---	side carry handle	next to	back shell
+worker_101	teapot	---	hole	above	lid
+		---	lid	above	hollow body
+		---	spout	connects	hollow body
+		---	hollow body	connects	handle
+worker_102	teapot	---	spout	connects	hollow body
+		---	hollow body	behind	spout
+		---	lid	above	hollow body
+		---	lid	connects	hollow body
+		---	handle	behind	hollow body
+		---	handle	connects	hollow body
+worker_107	teapot	---	hole	above	lid
+		---	hole	inside	lid
+		---	lid	above	hollow body
+		---	handle	connects	hollow body
+		---	spout	connects	hollow body
+worker_101	telephone	---	handset	connects	cord
+		---	cord	connects	base
+		---	handset	above	base
+		---	call indicator	part of	base
+		---	buttons	part of	base
+		---	ringer volume switch	part of	base
+		---	speakerphone switch	part of	base
+		---	telephone line	connects	base
+		---	extension interface	next to	telephone line
+		---	base	connects	extension interface
+		---	TP switch	part of	base
+worker_102	telephone	---	handset	next to	keypad
+		---	telephone line	next to	keypad
+		---	ringer volume switch	next to	keypad
+		---	speakerphone switch	next to	keypad
+		---	call indicator	next to	memory key
+		---	memory key	above	keypad
+worker_107	telephone	---	call indicator	connects	base
+		---	memory key	connects	base
+		---	call indicator	above	telephone line
+		---	call indicator	above	ringer volume switch
+		---	call indicator	above	speakerphone switch
+		---	memory key	above	telephone line
+		---	memory key	above	ringer volume switch
+		---	memory key	above	speakerphone switch
+		---	handset	connects	base
+		---	keypad	connects	base
+		---	handset	next to	keypad
+		---	telephone line	connects	base
+		---	speakerphone switch	connects	base
+		---	ringer volume switch	connects	base
+worker_102	telescope	---	telescope tube	above	counter weight
+		---	telescope tube	above	mount
+		---	telescope tube	above	tripod
+		---	telescope tube	above	slow motion control
+		---	eyepiece	behind	telescope tube
+		---	finderscope	above	telescope tube
+		---	finderscope	behind	telescope tube
+		---	telescope tube	requires	eyepiece
+worker_100	telescope	---	finderscope	above	telescope tube
+		---	finderscope	connects	telescope tube
+		---	telescope tube	connects	eyepiece
+		---	eyepiece	behind	telescope tube
+		---	telescope tube	above	mount
+		---	mount	connects	telescope tube
+		---	mount	connects	tripod
+		---	mount	above	tripod
+		---	mount	connects	slow motion control
+		---	mount	connects	counter weight
+		---	slow motion control	above	counter weight
+worker_106	telescope	---	finderscope	above	telescope tube
+		---	eyepiece	behind	telescope tube
+		---	telescope tube	connects	mount
+		---	mount	requires	counter weight
+		---	mount	above	tripod
+		---	slow motion control	connects	telescope tube
+worker_107	windmill	---	rotor	connects	mill house
+		---	mill house	behind	rotor
+		---	mill house	above	base
+		---	tail	connects	mill house
+		---	tail	behind	mill house
+worker_101	windmill	---	mill house	connects	rotor
+		---	mill house	behind	rotor
+		---	mill house	behind	base
+		---	rotor	above	base
+		---	tail	part of	base
+worker_102	windmill	---	rotor	connects	mill house
+		---	rotor	above	mill house
+		---	mill house	connects	base
+		---	mill house	above	base

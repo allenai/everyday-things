@@ -1,0 +1,586 @@
+worker_103	bat	---	Elbow	connects	Arm
+		---	Arm 	connects	Thumb
+		---	Arm 	connects	Fingers 
+		---	Wing Membrane	part of	Thumb
+		---	Wing Membrane	part of	Arm
+		---	Wing Membrane	part of	Fingers 
+		---	Wing Membrane 	part of	Elbow
+		---	Wing membrane 	connects	Fur
+		---	Fur	above	Tail membrane
+		---	Fur 	surrounds	leaf nose
+		---	Fur 	surrounds	ear
+		---	Tail membrane	surrounds	Tail
+		---	Leg	inside	Tail Membrane
+		---	Leg 	connects	toes
+worker_102	bat	---	Fingers	connects	Thumb
+		---	Thumb	connects	Arm
+		---	Arm 	connects	Body
+		---	body	connects	Tail membrane
+		---	Tail membrane	part of	Tail
+		---	body 	connects	toes
+		---	toes	connects	leg
+		---	Body	next to	wing membrane
+		---	body	behind	nose leaf
+		---	nose leaf 	next to	ear
+worker_100	bat	---	nose leaf	above	ear
+		---	ear 	next to	elbow
+		---	ear 	above	tail
+		---	ear 	above	leg
+		---	Tail membrane	surrounds	tail
+		---	Tail membrane	surrounds	leg
+		---	leg	above	toes
+		---	tail membrane	surrounds	toes
+		---	elbow	connects	arm
+		---	arm	connects	thumb
+		---	arm 	connects	fingers
+		---	Wing membrane 	surrounds	thumb
+		---	Wing membrane 	surrounds	fingers
+worker_107	bird	---	beak	connects	head
+		---	head	surrounds	eye
+		---	head	above	body
+		---	feather	surrounds	body
+		---	feather	surrounds	head
+		---	feather	surrounds	wing
+		---	feather	surrounds	tail
+		---	wing	connects	body
+		---	body	connects	leg
+		---	tail	connects	body
+worker_101	bird	---	Eye	above	beak
+		---	eye 	connects	head
+		---	beak	connects 	head 
+		---	head 	above	body
+		---	body 	connects 	head
+		---	body 	connects	wing
+		---	Body 	connects	leg
+		---	Body 	connects	tail
+		---	Body 	above	leg
+		---	tail	behind	body
+		---	feather	surrounds	tail
+		---	feather	surrounds	legs
+		---	feather	surrounds	body
+		---	feather	surrounds	head
+		---	feather	surrounds	wing
+worker_102	bird	---	eye	above	beak
+		---	eye	part of 	head
+		---	beak	part of 	head
+		---	head 	connects	body
+		---	head 	above	body
+		---	Body 	above	leg
+		---	Body 	connects	leg
+		---	feather	part of	body
+		---	feather	above	wing
+		---	feather 	part of 	wing
+		---	wing 	connects	body
+		---	tail	connects 	body
+		---	tail	behind	body
+		---	wing 	above	leg
+worker_107	bookcase	---	top	connects	sides
+		---	top	connects	divider
+		---	top 	above	shelves
+		---	top	above	divider
+		---	top 	above 	back
+		---	top 	above 	sides
+		---	shelves	connects	sides
+		---	shelves	connects	divider
+		---	divider	connects 	base
+		---	base	connects	sides
+		---	back	behind	top
+		---	back	behind	sides
+		---	back	behind	divider
+		---	back	behind	shelves
+		---	top	above	base
+		---	base	behind	divider
+		---	base	behind	sides
+		---	base	behind	back
+		---	back	connects	base
+		---	back 	connects 	top
+worker_101	bookcase	---	top	above	sides
+		---	top	above	divider
+		---	top	above	shelf
+		---	top	connects	divider
+		---	top	connects	sides
+		---	shelf	connects	divider
+		---	shelf	connects	bottom
+		---	shelf	above	bottom
+		---	divider	connects	bottom
+		---	divider	above	bottom
+		---	sides	connects	bottom
+		---	sides 	above	bottom
+worker_102	bookcase	---	dividers	connects	top
+		---	dividers	connects	bottom
+		---	dividers	above	bottom
+		---	dividers	next to	shelf
+		---	top	above	shelf
+		---	shelf	above	bottome
+		---	dividers	behind	top
+worker_101	bus	---	roof	above	windows
+		---	brakelights	behind	sides
+		---	windows	above	sides
+		---	windows	next to	door
+		---	door	connects	sides
+		---	sides	connects	wheels
+		---	sides	above	wheels
+		---	wheels	behind	door
+		---	door	next to	sides
+		---	windshield	behind	door
+		---	windshield	behind	wipers
+		---	indicators	above	windshield
+		---	windshield	above 	headlights
+		---	steering wheel	behind	windshield
+		---	headlights	next to	horn
+worker_104	bus	---	Roof	above	breaklights
+		---	breaklights	behind	headlights
+		---	indicators	behind	headlights
+		---	indicators	next to	horn
+		---	horn	part of	steering wheel
+		---	steering wheel	behind	windows
+		---	windows	behind	wipers
+		---	wipers	next to	door
+		---	door 	above 	wheels
+worker_102	bus	---	Roof	above	indicators
+		---	roof	above	windows
+		---	Windows	above	wheels
+		---	brakelights	behind	windows
+		---	windows	next to	door
+		---	door 	next to	headlights
+		---	steering wheel	next to	horn
+		---	steering wheel	above	headlights
+		---	indicators	above	wipers
+worker_110	butterfly	---	Antennae	above	head
+		---	antennae	connects	head
+		---	head	above	thorax
+		---	head	connects	thorax
+		---	thorax	above	abdomen
+		---	thorax	connects	abdomen
+		---	thorax	next to	wings
+		---	abdomen	next to	wings
+		---	wings 	connects	Thorax
+worker_101	butterfly	---	thorax	connects	head
+		---	thorax	connects	abdomen
+		---	thorax	behind	head
+		---	abdomen	behind	thorax
+		---	abdomen	next to	wings
+		---	wings	next to 	abdomen
+		---	abdomen	connects	head
+		---	head	connects	antenna
+		---	antenna 	above	head
+worker_102	butterfly	---	Antenna	above	head
+		---	Antenna	connects	head
+		---	head 	above	thorax
+		---	head 	connects	thorax
+		---	thorax	above 	abdomen
+		---	thorax	connects	abdomen
+		---	abdomen	connects	wings
+		---	wings	connects	thorax
+worker_111	cable car	---	cable car grip	above	cable
+		---	cable car grip	above	cabin
+		---	Cabin windows	part of	cabin
+		---	cabin seats	part of	cabin
+		---	cabin doors	part of 	cabin
+worker_101	cable car	---	cable	above	cable car grip
+		---	cable 	connects	cable car grip
+		---	cable car grip	above	cabin
+		---	cable car grip	connects	cabin
+		---	cabin	connects	cabin door
+		---	cabin	connects	Cabin window
+		---	cabin seats	inside	cabin
+		---	cabin seats	next to 	cabin windows
+		---	cabin seats 	next to	cabin door
+		---	cabin door 	next to 	cabin window
+worker_102	cable car	---	cable	connects	cable car grip
+		---	cable	above	cable car
+		---	cable car grip	above	cable car
+		---	cabin door 	part of	cable car
+		---	cabin windows	part of 	cable car
+		---	cabin seats 	inside	cable car
+		---	cabin windows	next to 	cabin door 
+		---	cable car	requires	Cable
+worker_101	calculator	---	back cover	behind	processor chip
+		---	display	connects	processor chip
+		---	processor chip	connects	display
+		---	button battery	connects	processor chip
+		---	processor chip	connects	keyboard sensor
+		---	processor chip	behind	keyboard sensor
+		---	display	above	keyboard sensor
+		---	display	connects	keyboard sensor
+		---	keyboard sensors	behind	rubber keyboard
+		---	rubber keyboard	behind	front cover
+		---	display	behind	front cover
+worker_106	calculator	---	rubber keyboard	behind	front cover
+		---	rubber keyboard	behind	keyboard sensor
+		---	processor chip	behind	keyboard sensor
+		---	keyboard sensors	requires	display
+		---	back cover	behind	processor chip
+worker_107	calculator	---	back cover	behind	front cover
+		---	display	requires	button battery
+		---	display	connects	Button battery
+		---	back cover	connects 	front cover 
+		---	keyboard sensors	connects	display
+		---	processor chip	connects	keyboard sensor
+		---	processor chip	connects	display
+		---	rubber keyboard 	connects	keyboard sensor
+		---	display	connects	processor chip
+		---	keyboard sensors	connects	processor chip
+		---	button battery 	connects	processor chip
+		---	button battery 	connects	rubber keyboard
+		---	button battery 	connects	keyboard sensor
+		---	processor chip	requires	button battery 
+		---	rubber keyboard	requires	button battery 
+		---	keyboard sensor	requires	button battery 
+		---	keyboard sensor	requires	processor chip
+		---	display	requires	processor chip
+		---	keyboard sensor	requires	rubber keyboard 
+worker_107	cat	---	ear	next to 	eye
+		---	ear	above	nose
+		---	ear	above	mouth
+		---	ear 	connects	head
+		---	fur	surrounds	eye
+		---	eye 	connects	head
+		---	nose	connects	head
+		---	mouth	connects	head
+		---	fur	surrounds	head
+		---	head	above	body
+		---	fur	surrounds	leg
+		---	fur	surrounds	foot
+		---	body	connects	leg
+		---	leg	connects 	foot
+		---	fur 	surrounds	tail
+		---	tail	connects 	body
+		---	fur	surrounds 	body
+worker_100	cat	---	ears	above	head
+		---	ears	connects	head
+		---	head	above	eyes
+		---	eyes	above	nose
+		---	nose	above	mouth
+		---	mouth	above	tail
+		---	tail	above	leg
+		---	leg	above	foot
+		---	leg	connects	foot
+worker_101	cat	---	fur	surrounds	ear
+		---	fur	surrounds	head
+		---	fur	surrounds	body
+		---	fur	surrounds	leg
+		---	fur	surrounds	foot
+		---	fur	surrounds	tail
+		---	ear	above	Head
+		---	ear	connects	head
+		---	head	connects	body
+		---	head	connects	eyes
+		---	head	connects	mouth
+		---	head	connects	nose
+		---	eye	above	nose
+		---	nose	above	mouth
+		---	head	above	body
+		---	body	behind	head
+		---	body	above	leg
+		---	body	connects	leg
+		---	tail	behind	body
+		---	body	connects	tail
+		---	leg	connects	foot
+		---	leg	above 	foot
+worker_103	chair	---	top rail	above	back
+		---	stile	next to 	back
+		---	back	above	seat
+		---	seat	above	legs
+		---	apron	surrounds	seat
+worker_102	chair	---	top rail	connects	back
+		---	top rail	above	back
+		---	stile	part of 	back
+		---	stile 	above	seat
+		---	seat	above	apron
+		---	seat 	connects	apron
+		---	apron	connects	legs
+		---	apron	above	legs
+worker_100	chair	---	top rail	connects	stile
+		---	stile	connects	cross rail
+		---	cross rail	part of 	back
+		---	top rail	part of	back
+		---	stile 	part of	back
+		---	back 	connects	seat
+		---	seat	above	legs
+		---	seat	connects	legs
+		---	seat	above	apron
+		---	seat	connects	apron
+worker_101	computer	---	monitor	requires	CPU
+		---	monitor	connects	CPU
+		---	CPU	connects 	mouse
+		---	Mouse	requires	CPU
+		---	mouse	next to 	keyboard
+		---	keyboard	connects	CPU
+		---	keyboard	requires	CPU
+worker_102	computer	---	monitor	behind	mouse
+		---	monitor	behind	keyboard
+		---	monitor	connects	CPU
+		---	monitor	requires	CPU
+		---	CPU	connects	mouse
+		---	mouse	next to	keyboard
+		---	CPU	connects	keyboard
+worker_100	computer	---	Keyboard	connects	CPU
+		---	Monitor	behind	keyboard
+		---	CPU	connects	mouse
+		---	monitor 	behind	mouse
+		---	CPU	connects	monitor
+worker_101	duck	---	eye	connects	head
+		---	eye	behind	nostril
+		---	nostril	connects	head
+		---	head	connects	bill
+		---	head	connects	neck
+		---	head	above	neck
+		---	neck	connects	body
+		---	neck	above	body
+		---	Body	connects	tail
+		---	body	connects	wing
+		---	wing	next to	body
+		---	tail	behind	body
+		---	body	connects	leg
+		---	body	above	leg
+		---	leg	above	webbed foot
+		---	leg	connects	webbed foot
+		---	nostril	part of 	Bill
+worker_100	duck	---	eye	above	nostril
+		---	eye	behind	nostril
+		---	nostril	part of 	bill
+		---	bill	above	neck
+		---	neck	above	wing
+		---	tail	behind	wing
+		---	wing	above	leg
+		---	leg	connects	webbed foot
+		---	leg	above	webbed foot 
+worker_102	duck	---	bill	connects	nostril
+		---	nostril	part of 	head
+		---	bill 	part of 	head
+		---	eye 	part of	head
+		---	head	connects	neck
+		---	neck	connects 	body
+		---	wing	part of 	body
+		---	body	connects	leg
+		---	body	above	leg
+		---	leg	above	webbed foot
+		---	leg	connects	webbed foot
+		---	body 	connects 	tail
+		---	tail	behind	body
+worker_101	egg	---	egg white	surrounds	yolk
+		---	yolk	inside	egg white
+		---	egg white	inside	shell membrane
+		---	shell membrane	surrounds	egg white
+		---	air cell	above	egg white
+		---	air cell	inside	shell
+		---	shell	surrounds	shell membrane
+		---	shell membrane	inside	shell
+worker_103	egg	---	egg white 	surrounds	yolk
+		---	shell membrane	surrounds	yolk
+		---	shell	surrounds	shell membrane
+worker_102	egg	---	shell	surrounds	shell membrane
+		---	shell membrane	surrounds	yolk
+		---	egg white 	surrounds	yolk
+		---	shell membrane	surrounds	egg white
+worker_101	helicopter	---	engine	inside	engine bay
+		---	engine bay 	behind	passenger seats
+		---	engine bay 	inside	frame
+		---	passenger seats	behind	cockpit
+		---	cockpit	inside	frame
+		---	frame	connects	landing skid
+		---	frame	above	landing skid
+		---	frame	connects	tail rotor
+		---	frame	connects	main rotor
+		---	blade	above	frame
+		---	main rotor	above	frame
+		---	blade 	connects 	main rotor
+		---	Passenger seats	inside	frame
+worker_102	helicopter	---	main rotor	connects	blade
+		---	main rotor 	above	passenger seats
+		---	main rotor	requires	engine
+		---	main rotor 	connects 	engine
+		---	tail rotor	behind	engine
+		---	tail rotor	requires	engine
+		---	engine	behind	passenger seats 
+		---	passenger seats 	behind	cockpit
+		---	passenger seats 	above	landing skid
+worker_106	helicopter	---	blade	connects	main rotor
+		---	main rotor	connects 	engine
+		---	tail rotor	behind	engine
+		---	main rotor	above	cockpit
+		---	passenger seats 	inside	cockpit
+		---	cockpit 	above	landing skid
+		---	passenger seats 	above	landing skid
+		---	engine 	behind	cockpit
+worker_101	knife	---	belly	behind	tip
+		---	belly	part of 	blade
+		---	point 	part of 	tip
+		---	tip 	part of 	blade
+		---	point 	connects	blade 
+		---	blade	connects	spine 
+		---	spine	above	blade
+		---	blade	connects 	heel
+		---	cutting edge	part of 	blade 
+		---	blade	connects 	bolster
+		---	heel	behind	cutting edge
+		---	bolster	behind	cutting edge 
+		---	heel 	connects 	bolster
+		---	tang 	behind	bolster
+		---	handle	behind	bolster 
+		---	tang 	connects 	handle 
+		---	handle	behind	spine 
+		---	handle	connects 	butt
+		---	butt	behind	handle 
+		---	handle	connects 	rivet
+worker_102	knife	---	tip	part of	blade 
+		---	cutting edge	part of	blade 
+		---	heel	part of	blade 
+		---	spine	part of	blade 
+		---	cutting edge 	connects	heel
+		---	tip	connects 	spine
+		---	blade	connects 	handle
+		---	handle	behind	blade 
+		---	tang	part of 	handle 
+		---	rivet	part of 	handle 
+		---	butt	part of 	handle 
+		---	butt	behind	rivet
+		---	rivet	behind	tang
+worker_104	knife	---	point	part of 	blade 
+		---	tip	part of 	blade 
+		---	belly	part of 	blade 
+		---	blade	connects	handle
+		---	butt	part of 	handle
+worker_106	photo frame	---	back board	behind	mat board
+		---	mat board	behind	glass
+		---	glass	inside	frame 
+worker_101	photo frame	---	frame	surrounds	glass
+		---	matboard	behind	glass
+		---	frame	surrounds	mat board
+		---	back board	behind	mat board
+		---	frame	surrounds 	back board 
+worker_107	photo frame	---	back board	behind	 mat board
+		---	mat board 	behind	frame
+		---	frame	behind 	glass 
+worker_100	rice cooker	---	knob	part of 	lid
+		---	lid	connects 	inner pot
+		---	lid	above	steam rack
+		---	steam rack	above	inner pot
+		---	steam rack	connects	inner pot
+		---	inner pot	inside	outer pot
+		---	inner pot	above	heating plate
+		---	heating plate 	inside	outer pot
+		---	power cord	connects	outer pot
+		---	power switch	part of 	outer pot
+		---	warm light	part of 	outer pot
+		---	cook light 	part of	outer pot 
+worker_102	rice cooker	---	lid 	above	outer pot
+		---	power switch	part of 	outer pot
+		---	cook light	part of 	outer pot
+		---	warm light	part of 	outer pot
+		---	warm light	next to	cook light
+		---	cook light	above	power switch
+		---	warm light	above	power switch
+		---	power cord	behind	outer pot
+		---	heating plate	inside	outer pot
+		---	heating plate	requires	power cord 
+worker_103	rice cooker	---	knob	part of 	lid
+		---	lid 	above	inner pot
+		---	heating plate	inside	inner pot
+		---	inner pot	inside	outside pot
+		---	cook light 	part of	outer pot
+		---	warm light	part of 	outer pot
+		---	power switch	part of 	outer pot
+		---	power cord 	behind	outer pot
+worker_101	saucepan	---	rim	surrounds	cooking surface
+		---	rim	connects	sides
+		---	sides	surrounds	cooking surface
+		---	cooking surface	above	base
+		---	cooking surface 	connects	base 
+		---	handle	connects	sides
+		---	handle 	connects	rivets
+		---	rivets	connects 	sides 
+worker_100	saucepan	---	handle	connects	rivets
+		---	rivets	connects	body
+		---	core	inside	body
+		---	sides	part of	body
+		---	cooking surface	part of 	body
+		---	sides	connects	cooking surface
+		---	rim	above	sides
+		---	core	inside	sides
+		---	cooking surface	connects 	sides
+worker_104	saucepan	---	rim	above	handle
+		---	handle 	next to	sides
+		---	sides	above	cooking surface
+		---	cooking surface 	above 	base
+worker_101	shoe	---	heel	behind	outsole
+		---	midsole	above	outsole
+		---	welt	above	outsole
+		---	insole	above	midsole
+		---	welt	next to 	vamp/ upper
+		---	lining	above	midsole
+		---	insole	inside	lining
+		---	lining	inside	vamp/upper
+		---	vamp/upper	next to 	tongue
+		---	tongue	connects	lacing
+		---	lacing	next to	vamp/upper
+worker_102	shoe	---	vamp/upper	connects	lacing
+		---	lacing	above	tongue
+		---	vamp/upper	connects	heel
+		---	lining	inside	vamp/upper
+		---	lining	above	insole
+		---	lining	above	midsole
+		---	lining	above	outsole
+		---	insole	above	midsole
+		---	midsole	above	outsole
+		---	insole	connects	midsole
+		---	midsole	connects	outsole
+		---	welt	above	outsole
+		---	welt 	next to	vamp/upper
+worker_104	shoe	---	lacing	above	tongue
+		---	tongue	above	insole
+		---	insole	above	midsole
+		---	midsole	above	heel
+		---	heel	part of	outsole
+worker_106	train	---	tender	requires	firebox
+		---	firebox	connects	smokebox
+		---	throttle	connects	steamdome
+		---	steamdome	connects	drypipe
+		---	drypipe	connects	valve
+		---	valve	connects	piston
+		---	piston	connects	driving wheels
+		---	driving wheels	connects	boiler
+		---	valve	connects	valve gear
+worker_103	train	---	tender	behind	firebox
+		---	firebox	above	boiler
+		---	driving wheels	above	boiler
+		---	throttle	above	firebox
+		---	throttle	behind	steamdome
+		---	steamdome	above	dry pile
+		---	steamdome	behind	driving wheels
+		---	dry pile	above	valve gear
+		---	valve gear	above	driving wheels
+		---	driving wheels	behind	piston
+		---	valve gear	behind	valve
+		---	dry pile	behind	smokebox
+		---	smokebox	above	valve
+		---	valve	above	piston
+worker_102	train	---	tender	behind	firebox
+		---	firebox	behind	throttle
+		---	firebox	part of	boiler
+		---	throttle	next to	steamdome
+		---	steam dome	above	boiler
+		---	dry pipe	above	boiler
+		---	valve bear	part of	boiler
+		---	driving wheels 	part of	boiler
+		---	steam dome	next to 	dry pipe
+		---	dry pipe	next to	smokebox
+		---	smokebox	above	dry pipe
+		---	smokebox	above	valve
+		---	valve	above	piston
+worker_100	umbrella	---	ribs	part of 	canopy
+		---	ribs	connects	stretchers
+		---	stretchers	connects	shaft
+		---	canopy 	connects	shaft
+		---	handle	part of 	shaft
+worker_101	umbrella	---	canopy	above	ribs
+		---	ribs	connects	canopy
+		---	ribs	connects	stretchers
+		---	stretchers	connects	shaft
+		---	shaft	connects	handle
+		---	shaft	above	Handle
+worker_104	umbrella	---	Canopy	above	stretchers
+		---	stretchers	connects	ribs
+		---	ribs	above	shaft
+		---	shaft	above	handle

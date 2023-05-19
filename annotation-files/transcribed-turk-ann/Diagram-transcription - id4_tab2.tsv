@@ -1,0 +1,574 @@
+worker_101	airplane	---	flight deck	behind	nose
+		---	fuselage	behind	flight deck
+		---	cabin	behind	flight deck
+		---	fuselage	above	cabin
+		---	flight deck	above	undercarriage
+		---	jet engine	behind	undercarriage
+		---	cabin	above	jet engine
+		---	cabin	connects	wing
+		---	cabin	next to	wing
+		---	hold	behind	cabin
+		---	fin	above	hold
+		---	fin	above	tail
+		---	tail	behind	hold
+		---	tail	behind	tailplane
+		---	hold	next to	tailplane
+worker_102	airplane	---	flight deck	behind	nose
+		---	nose	above	undercarriage
+		---	flight deck	above	undercarriage
+		---	fuselage	behind	flight deck
+		---	fuselage	above	jet engine
+		---	fuselage	above	cabin
+		---	cabin	above	jet engine
+		---	cabin 	connects	tail
+		---	cabin 	above 	wing
+		---	fin	behind	cabin
+		---	fin	above	tail
+		---	tail	next to 	tailplane
+worker_104	airplane	---	fin	above	fuselage
+		---	nose	above	body
+		---	cabin	above	body
+		---	hold	above	jet engine
+		---	body	above	jet engine
+		---	jet engine	above	undercarriage
+		---	fuselage	above	cabin
+worker_101	baby bottle	---	nipple	inside	cap
+		---	nipple	above	sealing disk
+		---	nipple	above	bottle
+		---	cap	surrounds	nipple
+		---	cap	above	screw ring
+		---	screw ring	connects	cap
+		---	screw ring	surrounds	sealing disk
+		---	screw ring	surrounds	bottle
+		---	screw ring	above	bottle
+		---	sealing disk	above	bottle
+		---	bottle	connects	sealing disk
+worker_102	baby bottle	---	cap	above	nipple
+		---	cap	surrounds	nipple
+		---	nipple	above	screw ring
+		---	screw ring	above	bottle
+		---	bottle	connects	screw ring
+		---	screw ring	connects	nipple
+worker_107	baby bottle	---	cap	above	bottle
+		---	cap	surrounds	sealing disk
+		---	sealing disk	above	nipple
+		---	sealing disk	above	bottle
+		---	nipple	inside	sealing disk
+worker_101	bed	---	slats	behind	footboard
+		---	headboard	behind	slats
+		---	headboard	next to	side rails
+		---	headboard	connects	side rails
+		---	side rails	connects	slats
+		---	side rails	next to	footboard
+		---	side rails	connects	footboard
+worker_102	bed	---	slats	behind	footboard
+		---	slats	next to	side rails
+		---	mattress	above	slats
+		---	headboard	behind	slats
+		---	headboard	connects	side rails
+		---	side rails	connects	footboard
+worker_107	bed	---	footboard	connects	side rails
+		---	slats	connects	side rails
+		---	mattress	connects	side rails
+		---	headboard	connects	side rails
+		---	headboard	behind	mattress
+worker_107	bird cage	---	carry handles	connects	sides
+		---	top	above	carry handles
+		---	carry handles	above	base
+		---	carry handles	next to	rod
+		---	sides	connects	top
+		---	sides	connects	base
+		---	sides	connects	door
+		---	sides	connects	food tray
+		---	sides	connects	carry handles
+		---	top 	connects	sides
+		---	top	above	rods
+		---	top	above	trays
+		---	top	above	sides
+		---	top	above	carry handles
+		---	top	above	metal base
+		---	rods	connects	sides
+		---	top	above	rods
+		---	rods	above	base
+		---	food tray	connects	sides
+		---	top	above	food tray
+		---	rods	above	food tray
+		---	food tray	above	base
+		---	food tray	next to	carry handles
+		---	door	connects	sides
+		---	top	above	door
+		---	rods	above	door
+		---	door	above	metal base
+		---	door	next to	carry handles
+		---	door	next to	food tray
+		---	metal base	connects	sides
+		---	sides	above	metal base
+worker_101	bird cage	---	door	part of	sides
+		---	carry handles	connects	sides
+		---	metal base	connects	sides
+		---	sides	above	metal tray
+		---	sides	connects	food tray
+		---	sides	next to	food tray
+		---	rods	above	food tray
+		---	rods	connects	sides
+		---	top	above	sides
+		---	top	connects	sides
+worker_104	bird cage	---	top	above	sides
+		---	top	above	door
+		---	sides	above	food tray
+		---	door	part of	sides
+		---	door	above	food tray
+		---	food tray	above	metal base
+worker_101	car	---	brake light	behind	trunk
+		---	brake light	above	tires
+		---	trunk	behind	rear window
+		---	rear window	behind	roof
+		---	roof	above	windshield
+		---	roof	behind	windshield
+		---	roof	above	door
+		---	antenna	connects	roof
+		---	antenna	above	roof
+		---	windshield	above	hood
+		---	windshield	behind	hood
+		---	hood	next to	headlight
+		---	headlight	above	tires
+		---	tires	surrounds	hubcap
+		---	sidewindow	part of	door
+		---	handle	part of	door
+worker_104	car	---	roof	above	windshield
+		---	windshield	next to	window
+		---	windshield	above	hood
+		---	window	above	door
+		---	hood	next to	door
+		---	door	above	hubcaps
+		---	hubcaps	part of	tires
+worker_100	car	---	window	part of	door
+		---	window	above	handle
+		---	handle	part of	door
+		---	door	above	wheels
+		---	trunk	behind	door
+		---	trunk	above	wheels
+		---	trunk	behind	windshield
+		---	windshield	behind	hood
+		---	windshield	connects	hood
+		---	windshield	above	wheels
+		---	roof	above	windshield
+		---	roof	connects	windshield
+		---	roof	connects	dor
+		---	roof	above	door
+worker_101	chainsaw	---	throttle	behind	engine
+		---	engine	behind	bar
+		---	engine	behind	front handle
+		---	engine	requires	pull start
+		---	pull start	connects	engine
+		---	pull start	above	engine
+		---	front handle	behind	hand guard
+		---	hand guard	above	bar
+		---	chain	surrounds	bar
+		---	nose	part of	bar
+worker_102	chainsaw	---	throttle	connects	engine
+		---	throttle	requires	engine
+		---	engine	connects	pull start
+		---	engine	behind	bar
+		---	front hand	behind	hand guard
+		---	hand guard	above	engine
+		---	nose	part of	bar
+		---	chain	part of	bar
+worker_107	chainsaw	---	chain	connects	bar
+		---	nose	connects	bar
+		---	bar	requires	engine
+		---	bar 	connects	engine
+		---	front handle	above	engine
+		---	front handle	next to	hand guard
+		---	hand guard 	above	engine
+		---	engine 	behind	bar
+		---	throttle	above	engine
+		---	throttle	requires	engine
+		---	throttle	behind	pull start
+		---	throttle	behind	front handle
+		---	throttle	behind	hand guard
+		---	pull start	above	engine
+		---	pull start 	requires	engine
+worker_101	corn	---	kernal	part of 	ear
+		---	ear	connects	silk
+		---	silk	above	ear
+		---	husk	part of 	ear
+		---	husk	surrounds	kernal
+worker_100	corn	---	kernal	part of	ear
+		---	kernal	inside	husk
+		---	husk	part of	ear
+		---	ear	connects	silk
+		---	silk	above	ear
+worker_107	corn	---	silk	part of	kernal
+		---	silk	part of 	ear
+		---	husk	above	silk
+		---	kernal	part of	ear
+		---	husk	part of 	ear
+worker_102	cow	---	body	connects	tail
+		---	body 	connects	toe
+		---	body	connects	neck
+		---	body	above	fore udder
+		---	back	part of	body
+		---	tail	behind	body
+		---	teat	part of	fore udder
+		---	toe	part of	hoof
+		---	neck	connects	head
+		---	ear	part of	head
+		---	ear	next to	eye
+		---	eye	part of	head
+		---	horn	above	eye
+		---	horn	part of	head
+		---	horn	above	nostril
+		---	nostril	part of	head
+worker_100	cow	---	horn	connects	head
+		---	eyes	part of	head
+		---	head	connects	ears
+		---	head	above	nostril
+		---	nostril	part of	muzzle
+		---	neck	behind	muzzle
+		---	neck	above	shoulder
+		---	shoulder	above	hoof
+		---	back	behind	shoulder
+		---	back	connects	tail
+		---	back	above	fore udder
+		---	teat	part of	fore udder
+		---	fore udder	behind	shoulder
+worker_104	cow	---	horn	above	eye
+		---	eye	above	tail
+		---	tail	above	shoulder
+		---	shoulder	above	elbow
+		---	elbow	above	teat
+		---	teat	above	toe
+		---	toe	part of	hoof
+worker_102	electric stove	---	cook timer	part of	control panel
+		---	control panel	above	cooktop
+		---	control knob	part of	control panel
+		---	cooktop	above	oven
+		---	oven	above	drawer
+		---	window	part of	oven
+		---	handle	part of	oven
+		---	rack	inside 	oven
+worker_112	electric stove	---	signal lamp	part of	control knob
+		---	control knob	part of	control panel
+		---	control panel	above	cooktop
+		---	clock timer	part of	control panel
+		---	control knob	part of	control panel
+		---	cooktop	requires	control knob
+		---	cooktop	above	oven
+		---	surface element	part of	cooktop
+		---	oven	above	drawer
+		---	rack	inside	oven
+		---	oven 	requires	control knob
+		---	handle	part of	window
+		---	window	part of	oven
+worker_103	electric stove	---	control panel	part of	backguard
+		---	control knob	part of	backguard
+		---	clock timer	part of	backguard
+		---	signal lamp	part of	backguard
+		---	backguard	above	cooktop
+		---	cooktop	above	oven
+		---	surface element	part of	cooktop
+		---	oven	above	drawer
+		---	rack	inside	oven
+		---	rack	behind	window
+		---	handle	above	window
+worker_102	electric tea kettle	---	spout	connects	body
+		---	lid	above	body
+		---	lid	connects	body
+		---	body	connects	handle
+		---	body	connects	base
+		---	body	above	base
+		---	lamp	part of	body
+		---	switch	part of	body
+		---	power plug	connects	base
+worker_104	electric tea kettle	---	lid	above	spout
+		---	spout	above	handle
+		---	handle	next to	body
+		---	body	above	base
+		---	on switch	part of	body
+		---	on switch	above	base
+		---	power plug	next to	base
+worker_107	electric tea kettle	---	lid	above	body
+		---	body	above 	base
+		---	body	connects	base
+		---	spout	connects	body
+		---	handle	connects	body
+		---	handle	above	on switch
+		---	handle	above	lamp
+		---	lamp	connects	body
+		---	lamp	above	on switch
+		---	power plug	behind	body
+		---	power plug	connects	body
+		---	power plug	requires	lamp
+		---	power plug	requires	on switch
+worker_100	hot air balloon	---	parachute vale	above	panels
+		---	parachute vale	above	gore
+		---	parachute vale	part of	envelope
+		---	panels	part of	evenlope
+		---	gore	part of	evenlope
+		---	envelope	above	skirt
+		---	envelope	connects	skirt
+		---	skirt	above	basket
+		---	skirt	connects	basket
+		---	basket	connects	burners
+		---	burners	connects	propane tanks
+		---	burners	requires	propane tanks
+		---	propane tanks	inside	basket
+		---	parachute valve cord	connects	basket
+		---	parachute valve cord	connects	parchute valve
+worker_101	hot air balloon	---	parachute valve 	part of	envelope
+		---	gore	part of 	envelope
+		---	panels	part of	envelope
+		---	envelope	connects	parachute valve cord
+		---	envelope	connects	skirt
+		---	envelope	above	skirt
+		---	skirt	connects	parachute valve cord
+		---	skirt	above	parachute valve cord
+		---	parachute valve cord	above	basket
+		---	basket 	connects	burners
+		---	burners	above	propane tanks
+		---	propane tanks	inside	basket
+worker_102	hot air balloon	---	parachute valve	part of	envelope
+		---	panels	part of	parachute valve
+		---	panels	connects	gore
+		---	panels	part of 	envelope
+		---	panels	connects	skirt
+		---	gore	part of	parachute valve
+		---	gore	part of	envelope
+		---	gore	connects	skirt
+		---	skirt	above	parachute valve cord
+		---	skirt	above	burners
+		---	skirt	connects	burners
+		---	burners	requires	propane tanks
+		---	burners	above	propane tanks
+		---	propane tanks	inside	basket
+		---	burners 	above	basket
+worker_100	humidifier	---	nozzle	connects	water tank
+		---	nozzle	above	water tank
+		---	water valve	part of	water tank
+		---	water tank	above	tank cap
+		---	water tank 	connects	tank cap
+		---	tank cap	connects	base
+		---	tank cap	connects	water valve
+		---	tank cap	above	base
+		---	air outlet	part of	base
+		---	power knob	part of	bae
+		---	water sensor	inside	base
+		---	water sensor	next to	nebulizer
+		---	nebulizer	inside	base
+worker_102	humidifier	---	nozzle	above	water tank
+		---	water tank	above	water valve
+		---	water valve	above	base
+		---	water sensor	inside	base
+		---	nebulizer	inside	base
+		---	power knob	part of 	base
+worker_104	humidifier	---	nozzle	above	water tank
+		---	water tank	above	resevoir
+		---	resevoir	connects	air outlet
+		---	resevoir	connects	base
+		---	resevoir	connects	water sensor
+		---	air outlet	next to	water sensor
+worker_101	microwave	---	cooking cavity	behind	door and choke
+		---	turntable	inside	cooking cavity
+		---	turntable	requires	power
+		---	power	connects	magnetron
+		---	magnetron	next to	waveguide
+		---	magnetron	connects	waveguide
+		---	waveguide	connects	stirrer
+		---	stirrer	next to	waveguide
+		---	stirrer	above	turntable
+		---	magnetron	above	turntable
+		---	waveguide	above	turntable
+worker_107	microwave	---	power	behind	cooking cavity
+		---	cooking cavity 	behind	door and choke
+		---	turntable	inside	cooking cavity
+		---	magnetron	above	cooking cavity
+		---	magnetron	above	power
+		---	waveguide	next to	magnetron
+		---	waveguide	above	cooking cavity
+		---	waveguide	above	power
+		---	stirrer	next to	waveguide
+		---	stirrer	above	cooking cavity
+worker_103	microwave	---	turntable	inside	cooking cavity
+		---	cooking cavity	behind	door and choke
+		---	power	behind	door and choke
+		---	magnetron	above	cooking cavity
+		---	magnetron	behind	waveguide
+		---	waveguide	above	cooking cavity
+		---	waveguide	behind	stirrer
+		---	stirrer	above 	cooking cavity
+worker_101	piano	---	lid	above	lid prop
+		---	lid	behind	music rack
+		---	lid prop	behind	music rack
+		---	music rack	above	fall board
+		---	music rack	behind	fall board
+		---	fall board	behind	keyboard
+		---	fall board	connects	keyboard
+		---	fall board	above	keyboard
+		---	keyboard	above	piano bench
+worker_106	piano	---	Lid 	requires	lid prop
+		---	music rack	above	fall board
+		---	fall board	above	keyboard
+		---	keyboard	requires	pedals
+		---	keyboard	requires	piano bench
+worker_103	piano	---	lid prop	connects	lid
+		---	lid 	above	keyboard
+		---	music rack	above	fall board
+		---	fall board	above	key board
+		---	key board	above	pedals
+worker_101	rat	---	tail	behind	body
+		---	body	connects	tail
+		---	body	connects	legs
+		---	body	above	legs
+		---	body	connects	head
+		---	body	behind	head
+		---	legs	connects	feet
+		---	legs	above	feet
+		---	fur	surrounds	legs
+		---	fur	surrounds	body
+		---	fur 	surrounds	nose
+		---	fur	surrounds	mouth
+		---	fur	surrounds	ear
+		---	fur	surrounds	head
+		---	ears	above	head
+		---	head	connects	ears
+		---	head	connects	eyes
+		---	eyes	behind	nose
+		---	head 	connects 	nose
+		---	nose	above	mouth
+		---	head	connects	mouth
+worker_102	rat	---	tail	behind	fur
+		---	tail	behind	legs
+		---	fur	above	legs
+		---	ears	above	fur
+		---	ears	above	eyes
+worker_103	rat	---	short fur	surrounds	tail
+		---	short fur	surrounds	legs
+		---	short fur	surrounds	ears
+		---	short fur	surrounds	eyes
+		---	tail	behind	legs
+		---	legs	behind	ears
+		---	ears	behind	eyes
+worker_101	stethoscope	---	eartips	connects	binaural
+		---	binaural	connects	binaural spring
+		---	binaural	connects	latex free pvc tubing
+		---	latex free pvc tubing	connects	drum
+		---	drum	connects	bell
+		---	drum	requires	eartips
+		---	drum	part of	chestpiece
+		---	drum	behind	diaphram
+		---	drum	connects	diaphram
+		---	bell	behind	drum
+		---	bell	part of 	chestpiece
+		---	diaphram	part of	chestpiece
+		---	nonchill ring	surrounds	diaphram
+worker_102	stethoscope	---	eartips	connects	binaural
+		---	binaural	connects	latex free pvc tubing
+		---	latex free pvc tubing	connects	drum
+		---	binaural spring	part of	binaural
+		---	diaphram	part of 	drum
+		---	bell	part of	drum
+worker_104	stethoscope	---	eartips	above	binaural
+		---	binaural	above	latex free pvc tubing
+		---	latex free pvc tubing	connects	drum
+		---	latex free pvc tubing	connects	bell
+		---	drum	connects	bell
+worker_101	table	---	top	above	apron
+		---	apron	connects	top
+		---	apron	above	legs
+		---	apron	connects	legs
+		---	legs	next to 	stretcher
+		---	legs	connects	stretcher
+worker_102	table	---	top	above	legs
+		---	top	above	apron
+		---	top	connects	apron
+		---	legs	connects	apron
+		---	apron	above	legs
+		---	legs 	connects	strecher
+worker_104	table	---	Top	above	apron
+		---	apron	above	legs
+		---	legs	connects	strecher
+		---	apron	above	strecher
+worker_108	table lamp	---	lampshade fitting	above	lock
+		---	lampshade fitting	connects	shade
+		---	shade	part of 	lampshade fitting
+		---	lampshade fitting	inside	bulb
+		---	bulb	part of	socket shell
+		---	socket shell	requires	bulb
+		---	socket shell	inside	base
+		---	switch	above	socket shell
+		---	base	surrounds	socket shell
+		---	threaded tube	surrounds	base
+		---	body	surrounds	base
+		---	plug	behind	body
+worker_104	table lamp	---	shade	surrounds 	bulb
+		---	shade	surrounds	harp
+		---	shade	surrounds	socket shell
+		---	harp	surrounds	bulb
+		---	harp	surrounds	socket shell
+		---	sockets shell	above	switch
+		---	base	above	body
+		---	switch	above	base
+worker_100	table lamp	---	lampshade fitting 	connects	lock
+		---	lampshade fitting 	connects	shade
+		---	lampshade fitting 	connects	harp
+		---	shade	surrounds	bulb
+		---	shade 	surrounds	socket shell
+		---	shade 	surrounds	switch
+		---	bulb	connects	socket shell
+		---	socket shell	connects	switch
+		---	switch	connects	base
+		---	base	connects	threaded tube
+		---	threaded tube	connects	harp
+		---	threaded tube	connects	body
+		---	body	connects	plug
+worker_101	tent	---	window	part of	waterproof flysheet
+		---	waterproof flysheet	surrounds	poles
+		---	poles	surrounds	inner tent
+		---	poles	above	peg loops
+		---	poles	connects	peg loops
+		---	inner tent	behind	insect proof mesh door
+		---	insect proof mesh door	behind	porch
+worker_102	tent	---	waterproof flysheet	behind	insect proof mesh door
+		---	poles	next to 	window
+		---	poles	above	peg loops
+		---	poles	connects	peg loops
+		---	window	next to	waterproof flysheet
+		---	window	next to 	insect proof mesh door
+		---	insect proof mesh door	above	porch
+worker_103	tent	---	poles	connects	peg loops
+		---	waterproof flysheet	surrounds	poles
+		---	waterproof flysheet	surrounds	window
+		---	waterproof flysheet	surrounds	insect proof mesh door
+		---	insect proof mesh door	behind	porch
+worker_101	tree	---	trunk	above	roots
+		---	trunk	connects	roots
+		---	trunk	connects	branches
+		---	trunk	next to	branches
+		---	branches	part of 	crown
+		---	branches	next to	leaves
+		---	branches	connects	leaves
+		---	branches	connects	twig
+		---	branches	next to 	twig
+		---	twig 	connects	leaves
+		---	twig 	next to	leaves
+		---	leaves	part of 	crown
+worker_102	tree	---	trunk	connects	roots
+		---	trunk	requires	roots
+		---	trunk	above	roots
+		---	branches	above	trunk
+		---	branches	connects	trunk
+		---	branches	part of 	crown
+		---	crown	above	trunk
+		---	branches	connects	twig
+		---	leaves	part of 	crown
+		---	twig 	connects	leaves
+		---	twig 	part of	crown
+worker_107	tree	---	trunk	above	roots
+		---	trunk	connects	crown
+		---	branches	part of	crown
+		---	twigs	connects	branches
+		---	branches	connects	twig
+		---	twig	connects	leaves
+		---	leaves	part of 	crown
+		---	leaves 	part of	crown
