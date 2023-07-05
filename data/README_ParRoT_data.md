@@ -2,7 +2,7 @@
 
 The ParRoT dataset is designed to test whether language models have coherent mental models of everyday things (e.g. egg, tree, flashlight).
 The dataset is described in "Do language models have coherent mental models of everyday things?" 
-We treat the task as that of constructing a "parts mental model" for everyday things, and evaluate whether language models can accurately judge whether each relation statement is True/False.
+We treat the task as that of constructing a "parts mental model" for everyday things, and evaluate if language models can accurately judge whether each relation statement is True/False.
 The dataset contains 11720 relations (p1, rln, p2) across 100 everyday things, 300 mental models, and 2191 parts.
 
 Relationships encoded include:
