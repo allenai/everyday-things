@@ -9,6 +9,7 @@ Relationships encoded include:
 * spatial orientation (part of, has part, inside, contains, in front of, behind, above, below, surrounds, surrounded by, next to)
 * connectivity (connects) \*A connects B denotes to is directly connected to B
 * functional dependency (requires, required by) \*A requires B denotes A cannot perform its primary function without B
+  
 We have also included the ids indicating different workers that sketched the parts mental models.
 
 We make our dataset publicly avilable here: [Dropbox folder for ParRoT-release](https://www.dropbox.com/sh/tv2hc6pmsbr25l3/AAAXZKvfkfyx6SAkqjolhS0ra?dl=0).
