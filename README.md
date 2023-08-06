@@ -89,13 +89,18 @@ os.getenv("OPENAI_API_KEY")
 # Citation
 
 ```
-@misc{gu-etal-2022-everydaythings,
-    title = {Do language models have coherent mental models of everyday things?},
-    author = {Gu, Yuling and Mishra, Bhavana Dalvi and Clark, Peter},
-    year = {2022},
-    publisher = {arXiv},
-    url = {https://arxiv.org/abs/2212.10029},
-    doi = {https://doi.org/10.48550/arXiv.2212.10029},
+@inproceedings{gu-etal-2023-language,
+    title = "Do language models have coherent mental models of everyday things?",
+    author = "Gu, Yuling  and
+      Dalvi Mishra, Bhavana  and
+      Clark, Peter",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.106",
+    pages = "1892--1913",
 }
 ```
 (To be updated when ACL2023 proceedings become available!)
