@@ -103,6 +103,6 @@ os.getenv("OPENAI_API_KEY")
     pages = "1892--1913",
 }
 ```
-(To be updated when ACL2023 proceedings become available!)
+
 
  
