@@ -2,7 +2,7 @@
 
 To investigate this, we propose a benchmark dataset consisting of 100 everyday things, their parts, and the relationships between these parts. We observe that state-of-the-art pre-trained language models (LMs) like GPT-3 and Macaw have fragments of knowledge about these entities, but they fail to produce consistent parts mental models. We propose a simple extension to these LMs where we apply a constraint satisfaction layer on top of raw predictions from LMs to produce more consistent and accurate parts mental models of everyday things. 
 
-These are further described in our paper "Do language models have coherent mental models of everyday things?" (To appear at ACL 2023, Axiv Link: https://arxiv.org/abs/2212.10029)
+These are further described in our paper "Do language models have coherent mental models of everyday things?" (ACL 2023, ACL Anthology link: https://aclanthology.org/2023.acl-long.106, Axiv Link: https://arxiv.org/abs/2212.10029)
 
 In this repository, we make the data and code used publicly available.
 
